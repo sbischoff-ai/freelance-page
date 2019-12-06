@@ -1,17 +1,26 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <TheNavbar/>
+    <ServiceCatalog v-bind:services="services"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TheNavbar from './components/TheNavbar'
+import ServiceCatalog from './components/ServiceCatalog'
+
+const services = require('./data/services')
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    TheNavbar,
+    ServiceCatalog
+  },
+  data() {
+    return {
+      services
+    }
   }
 }
 </script>
@@ -23,6 +32,11 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+
+body {
+  background-image: url('./assets/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 </style>
