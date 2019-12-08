@@ -1,6 +1,10 @@
 <template>
     <div id="header">
-        <img src="../assets/logo_dark.png" alt="Logo" class="header-logo">
+        <picture>
+            <source media="(min-width: 100vh)" srcset="../assets/logo_dark.png">
+            <source srcset="../assets/logo_dark_small.png">
+            <img src="../assets/logo_dark.png" alt="Logo" class="header-logo">
+        </picture>
     </div>
 </template>
 
@@ -20,9 +24,11 @@ export default {
 }
 
 .header-logo {
-    margin-top: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30vh;
     height: auto;
-    width: auto;
-    max-width: 100%;
+    width: 70%;
 }
 </style>

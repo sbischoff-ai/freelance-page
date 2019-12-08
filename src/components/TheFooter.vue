@@ -117,6 +117,7 @@ export default {
     margin-left: 5px;
     margin-right: 5px;
     float: right;
+    color: $gray-400;
 }
 
 .svg-icon {
