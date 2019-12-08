@@ -1,10 +1,10 @@
 <template>
     <div id="app">
-        <b-collapse id="collapse-navbar" visible>
+        <b-collapse id="collapse-navbar" v-model="navbarVisible">
             <TheNavbar/>
         </b-collapse>
         <TheHeader/>
-        <router-view id="main-view"/>
+        <router-view v-b-visible="toggleNavbar" id="main-view"/>
         <TheFooter/>
     </div>
 </template>
@@ -20,6 +20,18 @@ export default {
         TheNavbar,
         TheFooter,
         TheHeader
+    },
+    data() {
+        return {
+            navbarVisible: false
+        }
+    },
+    methods: {
+        toggleNavbar(mainViewVisible) { // eslint-disable-line no-unused-vars
+            if ((mainViewVisible && !this.navbarVisible) || (!mainViewVisible && this.navbarVisible)) {
+                this.$root.$emit('bv::toggle::collapse', 'collapse-navbar');
+            }
+        }
     }
 };
 </script>
