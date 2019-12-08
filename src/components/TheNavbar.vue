@@ -17,17 +17,25 @@
 
 <template>
     <div id="navbar">
-        <b-navbar toggleable="lg" :sticky="true" type="dark" variant="dark">
-            <b-navbar-brand href="#/">
+        <b-navbar toggleable="lg" type="dark" variant="dark">
+            <b-navbar-brand to="/">
                 <img src="../assets/logo_dark.png" height="27" alt="Logo">
             </b-navbar-brand>
             <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
             <b-collapse id="nav-collapse" is-nav>
             <b-navbar-nav>
-                <b-nav-item href="#/aboutme">{{ $t('aboutme') }}</b-nav-item>
-                <b-nav-item href="#/services">{{ $t('services') }}</b-nav-item>
-                <b-nav-item href="#/blog">{{ $t('blog') }}</b-nav-item>
-                <b-nav-item href="#/contact">{{ $t('contact') }}</b-nav-item>
+                <b-nav-item to="/aboutme#main-view" @click="scrollTo('#main-view')">
+                    {{ $t('aboutme') }}
+                </b-nav-item>
+                <b-nav-item to="/services#main-view" @click="scrollTo('#main-view')">
+                    {{ $t('services') }}
+                </b-nav-item>
+                <b-nav-item to="/blog#main-view" @click="scrollTo('#main-view')">
+                    {{ $t('blog') }}
+                </b-nav-item>
+                <b-nav-item to="/contact#main-view" @click="scrollTo('#main-view')">
+                    {{ $t('contact') }}
+                </b-nav-item>
             </b-navbar-nav>
 
             <b-navbar-nav class="ml-auto">
@@ -44,7 +52,15 @@
 <script>
 export default {
     name: 'TheNavbar',
+    mounted () {
+        if (this.$route.hash) {
+            setTimeout(() => this.scrollTo(this.$route.hash), 1);
+        }
+    },
     methods: {
+        scrollTo: function (hashtag) {
+            setTimeout(() => { location.href = hashtag }, 1);
+        },
         changeLocale: function(locale) {
             this.$root.$i18n.locale = locale;
         }

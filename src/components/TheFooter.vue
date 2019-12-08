@@ -103,7 +103,10 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
+@import '~bootstrap/scss/bootstrap.scss';
+@import '~bootstrap-vue/src/index.scss';
+
 .footer-left {
     margin-top: 7px;
     margin-left: 10px;
@@ -111,25 +114,26 @@ export default {
 }
 
 .footer-right {
-    margin-right: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
     float: right;
 }
 
 .svg-icon {
-    fill: #adb5bd;
+    fill: $gray-500;
     margin: 7px;
 }
 
 .svg-icon:hover {
-    fill: #f8f9fa;
+    fill: $gray-100;
 }
 
 .footer-link {
-    color: #adb5bd;
+    color: $gray-500;
 }
 
 .footer-link:hover {
-    color: #e9ecef;
+    color: $gray-100;
     text-decoration: none;
 }
 </style>

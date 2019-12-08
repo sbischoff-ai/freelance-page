@@ -30,5 +30,14 @@ export default new Router({
             component: () => import('../views/Contact'),
             children: []
         }
-    ]
+    ],
+    scrollBehavior(to, from, savedPosition) { // eslint-disable-line no-unused-vars
+        if (savedPosition) {
+            return savedPosition;
+        }
+        if (to.hash) {
+            return { selector: to.hash };
+        }
+        return { x: 0, y: 0 };
+    }
 });

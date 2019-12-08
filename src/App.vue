@@ -1,7 +1,10 @@
 <template>
     <div id="app">
-        <TheNavbar/>
-        <router-view class="view"/>
+        <b-collapse id="collapse-navbar" visible>
+            <TheNavbar/>
+        </b-collapse>
+        <TheHeader/>
+        <router-view id="main-view"/>
         <TheFooter/>
     </div>
 </template>
@@ -9,12 +12,14 @@
 <script>
 import TheNavbar from './components/TheNavbar';
 import TheFooter from './components/TheFooter';
+import TheHeader from './components/TheHeader';
 
 export default {
     name: 'app',
     components: {
         TheNavbar,
-        TheFooter
+        TheFooter,
+        TheHeader
     }
 };
 </script>
@@ -27,11 +32,18 @@ export default {
     text-align: center;
     color: #2c3e50;
     display: flex;
-    min-height: 100vh;
+    min-height: 200vh;
     flex-direction: column;
+    background-color: #f8f9fa;
 }
 
-.view {
+#collapse-navbar {
+    top: 0;
+    position: sticky;
+    z-index: 1;
+}
+
+#main-view {
     margin: 20px;
     flex: 1;
 }

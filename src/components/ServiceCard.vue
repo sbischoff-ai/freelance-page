@@ -12,7 +12,7 @@
 
 <script>
 export default {
-    name: "Service Card",
+    name: "ServiceCard",
     props: {
         title: String,
         image: String
