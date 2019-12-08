@@ -5,14 +5,14 @@
 </template>
 
 <script>
-import ProjectReferenceCard from './ProjectReferenceCard'
+import ProjectReferenceCard from './ProjectReferenceCard';
 
 export default {
     name: 'ProjectReferenceAlbum',
     components: {
         ProjectReferenceCard
     }
-}
+};
 </script>
 
 <style>

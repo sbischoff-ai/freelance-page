@@ -7,7 +7,6 @@
         style="max-width: 20rem;"
         class="mb-2"
     >
-        <b-button href="#" variant="primary">Details</b-button>
     </b-card>
 </template>
 
@@ -18,7 +17,7 @@ export default {
         title: String,
         image: String
     }
-}
+};
 </script>
 
 <style>

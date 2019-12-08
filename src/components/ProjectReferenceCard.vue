@@ -2,7 +2,7 @@
     <div>
         <b-card
             title="Project Title"
-            img-src="../assets/app-analytics.png"
+            img-src="../assets/undraw_startup_life.png"
             img-alt="Image"
             img-top
             style="max-width: 20rem;"
@@ -20,7 +20,7 @@
 <script>
 export default {
     name: 'ProjectReferenceCard'
-}
+};
 </script>
 
 <style>
