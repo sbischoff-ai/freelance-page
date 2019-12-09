@@ -50,17 +50,12 @@
 </template>
 
 <script>
+import scrollTo from '../mixins/scrollTo';
+
 export default {
     name: 'TheNavbar',
-    mounted () {
-        if (this.$route.hash) {
-            setTimeout(() => this.scrollTo(this.$route.hash), 1);
-        }
-    },
+    mixins: [scrollTo],
     methods: {
-        scrollTo: function (hashtag) {
-            setTimeout(() => { location.href = hashtag }, 1);
-        },
         changeLocale: function(locale) {
             this.$root.$i18n.locale = locale;
         }

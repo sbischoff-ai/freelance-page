@@ -20,10 +20,23 @@
         <picture>
             <source media="(min-width: 100vh)" srcset="../assets/logo_dark.png">
             <source srcset="../assets/logo_dark_small.png">
-            <img src="../assets/logo_dark.png" alt="Logo" class="header-logo" v-b-visible="emitVisibilityEvent">
+            <img src="../assets/logo_dark.png" alt="Logo" class="header-logo">
         </picture>
-        <b-container>
-            <b-row class="justify-content-md-center">
+        <b-container id="header-middle" v-b-visible="emitVisibilityEvent">
+            <b-row>
+                <b-col>
+                    <div class="header-subtitle">
+                        <p>Coder<span>.</span></p>
+                        <p>Consultant<span>.</span></p>
+                        <p>Data Scientist<span>.</span></p>
+                    </div>
+                </b-col>
+                <b-col>
+                </b-col>
+            </b-row>
+        </b-container>
+        <b-container id="header-navigation">
+            <b-row>
                 <b-col sm="auto">
                     <b-link class="header-link" to="/aboutme#main-view" @click="scrollTo('#main-view')">
                         {{ $t('aboutme') }}
@@ -50,15 +63,15 @@
 </template>
 
 <script>
+import scrollTo from '../mixins/scrollTo';
+
 export default {
     name: "TheHeader",
+    mixins: [scrollTo],
     methods: {
         emitVisibilityEvent(linksVisible) {
             this.$emit('navigationVisibilityChange', linksVisible)
-        },
-        scrollTo: function (hashtag) {
-            setTimeout(() => { location.href = hashtag }, 1);
-        },
+        }
     }
 };
 </script>
@@ -76,9 +89,37 @@ export default {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30vh;
+    margin-top: 20vh;
     height: auto;
     width: 70%;
+}
+
+#header-middle {
+    margin-top: 2em;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.header-subtitle {
+    color: $gray-100;
+    text-align: left;
+    font-size: xx-large;
+    font-family: 'Consolas', 'Courier'
+}
+
+.header-subtitle p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.header-subtitle span {
+    color: #6c63ff;
+}
+
+#header-navigation {
+    margin-top: 1em;
+    margin-left: 15%;
+    margin-right: auto;
 }
 
 .header-link {
