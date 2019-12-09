@@ -77,8 +77,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import '~bootstrap/scss/bootstrap.scss';
-@import '~bootstrap-vue/src/index.scss';
+@import '../theme.scss';
 
 #header {
     height: 100vh;
@@ -113,7 +112,7 @@ export default {
 }
 
 .header-subtitle span {
-    color: #6c63ff;
+    color: $blue;
 }
 
 #header-navigation {

@@ -1,18 +1,18 @@
 [
     {
         "title": "Full-Stack Development",
-        "image": "undraw_code_review.png"
+        "image": "undraw_code_review.svg"
     },
     {
         "title": "Dev-Ops",
-        "image": "undraw_solution.png"
+        "image": "undraw_solution_mindset.svg"
     },
     {
         "title": "Data Science",
-        "image": "undraw_predictive_analytics.png"
+        "image": "undraw_predictive_analytics.svg"
     },
     {
         "title": "AI Prototyping",
-        "image": "undraw_Artificial_intelligence.png"
+        "image": "undraw_Artificial_intelligence.svg"
     }
 ]

@@ -1,31 +1,44 @@
 <i18n>
 {
-  "en": {
-    "title": "About Me"
-  },
-  "de": {
-    "title": "Über Mich"
-  }
+    "en": {
+        "title": "About Me",
+        "personalinfo": "Hello, my name is Silas Bischoff. I'm a freelance software developer and data scientist."
+    },
+    "de": {
+        "title": "Über Mich",
+        "personalinfo": "Hallo, mein Name ist Silas Bischoff. Ich bin ein freiberuflicher Software-Entwickler und Data Scientist."
+    }
 }
 </i18n>
 
 <template>
     <div id="about-me">
-        <h1>{{ $t('title') }}</h1>
-        <b-container class="text-layout text-justify">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-        </b-container>
+        <ContentArea>
+            <ContentTitle icon="address-card">{{ $t('title') }}</ContentTitle>
+            <p>{{ $t('personalinfo') }}</p>
+            <ContentTitle icon="poll-h">Profil</ContentTitle>
+            <ContentParagraph image="undraw_chat_bot.svg" imagePosition="right">
+                asdjösadaösdj öask jdösa jöas jdöakjsödkj öaskjd öaskjd öaksjd öalskjd öaslkdj öalksjdöalksjdö laskjd sd
+            </ContentParagraph>
+        </ContentArea>
     </div>
 </template>
 
 <script>
+import ContentTitle from '../components/ContentTitle';
+import ContentArea from '../components/ContentArea';
+import ContentParagraph from '../components/ContentParagraph';
+
 export default {
-    name: 'AboutMe'
+    name: 'AboutMe',
+    components: {
+      ContentTitle,
+      ContentArea,
+      ContentParagraph
+    }
 };
 </script>
 
 <style>
-.text-layout {
-    max-width: 50rem;
-}
+
 </style>

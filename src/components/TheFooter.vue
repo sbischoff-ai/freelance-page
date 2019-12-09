@@ -16,7 +16,7 @@
 <template>
     <footer class="text-light bg-dark">
         <b-container fluid>
-            <b-row align-h="between">
+            <b-row align-h="between" align-v="center">
                 <b-col cols="auto">
                     <b-row>
                         <b-col>
@@ -28,7 +28,7 @@
                     </b-row>
                 </b-col>
                 <b-col cols="auto">
-                    <b-row align-h="end">
+                    <b-row align-h="end" align-v="center">
                         <b-col><small style="white-space: nowrap;">© 2019-2020 Silas Bischoff</small></b-col>
                         <b-col>
                             <b-link href="https://github.com/sbischoff-ai" target="_blank">
@@ -71,8 +71,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import '~bootstrap/scss/bootstrap.scss';
-@import '~bootstrap-vue/src/index.scss';
+@import '../theme.scss';
 
 .footer-link {
     white-space: nowrap;
