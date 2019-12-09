@@ -1,6 +1,6 @@
 <template>
     <div class="content-title">
-        <font-awesome-icon :icon="icon" class="content-title-icon"/> <slot></slot>
+        <h3><font-awesome-icon :icon="icon" class="content-title-icon"/> <slot></slot></h3>
     </div>
 </template>
 

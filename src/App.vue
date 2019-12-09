@@ -36,17 +36,29 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
+@import './theme.scss';
+
 #app {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    font-family: 'Quicksand', Helvetica, Arial, sans-serif;
+    font-weight: 500;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
-    color: #2c3e50;
+    color: $gray-800;
     display: flex;
     min-height: 200vh;
     flex-direction: column;
-    background-color: #f8f9fa;
+    background-color: $gray-100;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+h4, h5, h6 {
+    font-weight: 700;
 }
 
 #collapse-navbar {

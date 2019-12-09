@@ -12,6 +12,6 @@ export default {
 
 <style>
 .content-layout {
-    max-width: 50rem;
+    max-width: 50rem !important;
 }
 </style>

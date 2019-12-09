@@ -15,10 +15,13 @@
     <div id="about-me">
         <ContentArea>
             <ContentTitle icon="address-card">{{ $t('title') }}</ContentTitle>
-            <p>{{ $t('personalinfo') }}</p>
+            <ContentParagraph>{{ $t('personalinfo') }}</ContentParagraph>
             <ContentTitle icon="poll-h">Profil</ContentTitle>
             <ContentParagraph image="undraw_chat_bot.svg" imagePosition="right">
                 asdjösadaösdj öask jdösa jöas jdöakjsödkj öaskjd öaskjd öaksjd öalskjd öaslkdj öalksjdöalksjdö laskjd sd
+            </ContentParagraph>
+            <ContentParagraph image="undraw_online_chat.svg" imagePosition="left">
+                Lorem Ipsum wtf.
             </ContentParagraph>
         </ContentArea>
     </div>

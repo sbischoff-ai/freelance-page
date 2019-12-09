@@ -3,7 +3,7 @@
         <div class="service-card-header">
             <img :src="require(`../assets/${image}`)" class="service-card-image">
         </div>
-        <b-card-title>{{ title }}</b-card-title>
+        <b-card-title><h4>{{ title }}</h4></b-card-title>
     </b-card>
 </template>
 

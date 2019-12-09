@@ -103,7 +103,7 @@ export default {
     color: $gray-100;
     text-align: left;
     font-size: xx-large;
-    font-family: 'Consolas', 'Courier'
+    font-family: 'Roboto Mono', 'Consolas', monospace
 }
 
 .header-subtitle p {
