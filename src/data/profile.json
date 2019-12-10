@@ -1,0 +1,17 @@
+{
+    "languages": [
+        ["Python", 4],
+        ["JavaScript", 3],
+        ["Java", 3],
+        ["C#", 3],
+        ["C/C++", 2],
+        ["Scala", 1],
+        ["Haskell", 1],
+        ["Rust", 1]
+    ],
+    "technologies": [
+        ["TensorFlow", 3],
+        ["Azure", 3],
+        ["Google Cloud", 3]
+    ]
+}

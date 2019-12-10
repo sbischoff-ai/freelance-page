@@ -27,8 +27,8 @@ export default {
         }
     },
     methods: {
-        toggleNavbar(headerLinksVisible) { // eslint-disable-line no-unused-vars
-            if ((headerLinksVisible && this.navbarVisible) || (!headerLinksVisible && !this.navbarVisible)) {
+        toggleNavbar(collapseCondition) {
+            if ((collapseCondition && this.navbarVisible) || (!collapseCondition && !this.navbarVisible)) {
                 this.$root.$emit('bv::toggle::collapse', 'collapse-navbar');
             }
         }

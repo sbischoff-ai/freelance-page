@@ -31,8 +31,6 @@
                         <p>Data Scientist<span>.</span></p>
                     </div>
                 </b-col>
-                <b-col>
-                </b-col>
             </b-row>
         </b-container>
         <b-container id="header-navigation">
@@ -97,12 +95,12 @@ export default {
     margin-top: 2em;
     margin-left: 15%;
     margin-right: 15%;
+    max-width: 70%;
 }
 
 .header-subtitle {
     color: $gray-100;
     text-align: left;
-    font-size: xx-large;
     font-family: 'Roboto Mono', 'Consolas', monospace
 }
 
@@ -118,11 +116,53 @@ export default {
 #header-navigation {
     margin-top: 1em;
     margin-left: 15%;
-    margin-right: auto;
+    margin-right: 15%;
+    max-width: 70%;
+}
+
+@media screen and (min-width: 920px) {
+    .header-link {
+        font-size: xx-large;
+    }
+
+    .header-subtitle {
+        font-size: xx-large;
+    }
+    
+}
+
+@media screen and (min-width: 720px) and (max-width: 919px) {
+    .header-link {
+        font-size: x-large;
+    }
+
+    .header-subtitle {
+        font-size: x-large;
+    }
+    
+}
+
+@media screen and (min-width: 601px) and (max-width: 719px) {
+    .header-link {
+        font-size: large;
+    }
+
+    .header-subtitle {
+        font-size: large;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header-link {
+        font-size: medium;
+    }
+
+    .header-subtitle {
+        font-size: large;
+    }
 }
 
 .header-link {
-    font-size: x-large;
     color: $gray-500;
 }
 
