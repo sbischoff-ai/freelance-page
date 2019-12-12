@@ -31,6 +31,7 @@
             <ContentTitle icon="address-card">{{ $t('title') }}</ContentTitle>
             <ContentParagraph image="potrait.png" imagePosition="right">{{ $t('personalinfo') }}</ContentParagraph>
             <ContentTitle icon="poll-h">{{ $t('profile') }}</ContentTitle>
+            Skills and experience ...
             <ContentParagraph image="undraw_hacker_mind.svg" imagePosition="left">
                 <SkillChart
                     :title="$t('languages')"
@@ -56,6 +57,7 @@
                 />
             </ContentParagraph>
             <ContentTitle icon="tasks">{{ $t('references') }}</ContentTitle>
+            Previous projects ...
         </ContentArea>
     </div>
 </template>
