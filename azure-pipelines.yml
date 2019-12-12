@@ -11,7 +11,7 @@ steps:
   displayName: login to azure and container registry
 
 - script: |
-    docker build -t freelancecontainer.azurecr.io/freelance-page:test
+    docker build -t freelancecontainer.azurecr.io/freelance-page:test .
     docker push freelancecontainer.azurecr.io/freelance-page:test
   displayName: 'build and push docker container'
 
