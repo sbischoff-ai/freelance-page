@@ -6,7 +6,7 @@ pool:
 
 steps:
 - script: |
-    az login --service-principal --allow-no-subscriptions -u d93b866b-54e7-4a05-80de-4ef11fe019b2 -p $(AZURE_SECRET) --tenant 6ef5bd57-30e3-40c4-a543-a5f1a391e645
+    az login --service-principal -u d93b866b-54e7-4a05-80de-4ef11fe019b2 -p $(AZURE_SECRET) --tenant 6ef5bd57-30e3-40c4-a543-a5f1a391e645
     az acr login --name freelancecontainer
   displayName: login to azure and container registry
 
