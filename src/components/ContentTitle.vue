@@ -1,6 +1,14 @@
 <template>
-    <div class="content-title">
-        <h3><font-awesome-icon :icon="icon" class="content-title-icon"/> <slot></slot></h3>
+    <div :class="position === 'right' ? 'content-title position-right' : 'content-title position-left'">
+        <h3><font-awesome-icon
+            v-if="position === 'left' || !position" 
+            :icon="icon" 
+            class="content-title-icon"
+        /> <slot></slot> <font-awesome-icon
+            v-if="position === 'right'" 
+            :icon="icon" 
+            class="content-title-icon"
+        /></h3>
     </div>
 </template>
 
@@ -8,7 +16,8 @@
 export default {
     name: 'ContentTitle',
     props: {
-        icon: String
+        icon: String,
+        position: String
     }
 };
 </script>
@@ -18,7 +27,15 @@ export default {
 
 .content-title {
     font-size: xx-large;
+    margin-bottom: 1em;
+}
+
+.position-left {
     text-align: start;
+}
+
+.position-right {
+    text-align: end;
 }
 
 .content-title-icon {

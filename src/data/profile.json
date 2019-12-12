@@ -1,17 +1,49 @@
 {
     "languages": [
         ["Python", 4],
-        ["JavaScript", 3],
+        ["JavaScript", 4],
         ["Java", 3],
         ["C#", 3],
+        ["SQL", 3],
+        ["GraphQL", 3],
         ["C/C++", 2],
+        ["HTML/CSS", 2],
+        ["R", 1],
         ["Scala", 1],
         ["Haskell", 1],
         ["Rust", 1]
     ],
+    "frameworks": [
+        ["keras/tensorflow", 4],
+        ["spaCy", 4],
+        ["sklearn", 4],
+        ["Flask", 3],
+        ["Vue.js", 3],
+        ["Angular", 2],
+        ["React.js", 2],
+        [".NET", 2],
+        ["Spring", 1]
+    ],
     "technologies": [
-        ["TensorFlow", 3],
-        ["Azure", 3],
-        ["Google Cloud", 3]
+        ["Docker", 4],
+        ["Git", 4],
+        ["Kubernetes", 3],
+        ["Azure DevOps", 3],
+        ["MongoDB", 3],
+        ["PostgreSQL", 3],
+        ["Hadoop", 2],
+        ["Firebase", 1]
+    ],
+    "methods": [
+        ["Deep Learning", 4],
+        ["Text Mining", 4],
+        ["Data Mining", 4],
+        ["ETL", 4],
+        ["Scientific Simulation", 4],
+        ["CI/CD", 3],
+        ["Test Automation", 3],
+        ["Lean Startup", 3],
+        ["Agile", 3],
+        ["SOA", 2]
     ]
 }

@@ -29,15 +29,16 @@ export default {
 
 .service-card:hover {
     transform: scale(1.1);
+    z-index: 2;
 }
 
 .service-card-header {
-    height: 15rem;
+    height: 12rem;
     margin: 2px;
 }
 
 .service-card-image {
     max-width: 100%;
-    height: auto;
+    max-height: 12rem;
 }
 </style>

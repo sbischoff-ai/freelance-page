@@ -1,7 +1,7 @@
 <template>
     <div id="services">
         <h1>Consulting Services</h1>
-        <ServiceCatalog v-bind:services="services"/>
+        <ServiceCatalog :services="services"/>
     </div>
 </template>
 

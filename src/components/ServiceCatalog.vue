@@ -1,13 +1,16 @@
 <template>
     <div class="catalog">
-        <b-card-group deck>
-            <ServiceCard
-                v-for="service in services"
-                v-bind:key="service.title"
-                v-bind:title="service.title"
-                v-bind:image="service.image"
-            />
-        </b-card-group>
+        <b-container>
+            <b-row>
+                <b-col v-for="service in services" :key="service.title" style="height: 21rem;">
+                    <ServiceCard
+                        v-bind:title="service.title"
+                        v-bind:image="service.image"
+                        style="height: 90%;"
+                    />
+                </b-col>
+            </b-row>
+        </b-container>
     </div>
 </template>
 

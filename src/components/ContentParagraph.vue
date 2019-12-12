@@ -1,6 +1,6 @@
 <template>
     <b-container fluid class="p-0 mb-4">
-        <b-row no-gutters>
+        <b-row no-gutters align-v="center">
             <b-col cols="4" v-if="image" :order="imagePosition === 'left' ? 1 : 12">
                 <div class="content-image-area">
                     <img class="content-image" :src="require(`../assets/${image}`)">
