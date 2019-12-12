@@ -1,0 +1,18 @@
+trigger:
+- master
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- script: |
+    az login -u contact@sbischoff.dev -p $(AZURE_SECRET)
+    az acr login --name freelancecontainer
+  displayName: login to azure and container registry
+
+- script: |
+    docker build -t freelancecontainer.azurecr.io/freelance-page:test
+    docker push freelancecontainer.azurecr.io/freelance-page:test
+  displayName: 'build and push docker container'
+
+# The page is redeployed automatically via webhook
