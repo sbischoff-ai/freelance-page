@@ -18,22 +18,46 @@
 <template>
     <div id="navbar">
         <b-navbar toggleable="lg" type="dark" variant="dark">
-            <b-navbar-brand to="/" v-scroll-to="'#'">
+            <b-navbar-brand to="/" v-scroll-to="'#app'">
                 <img src="../assets/logo_dark.png" height="27" alt="Logo">
             </b-navbar-brand>
             <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
             <b-collapse id="nav-collapse" is-nav>
             <b-navbar-nav>
-                <b-nav-item to="/aboutme#main-view" v-scroll-to="'#main-view'">
+                <b-nav-item
+                    to="/aboutme#main-view"
+                    v-scroll-to="{
+                        el: '#main-view',
+                        offset: $breakpoint.smAndDown ? -270 : -76
+                    }"
+                >
                     {{ $t('aboutme') }}
                 </b-nav-item>
-                <b-nav-item to="/services#main-view" v-scroll-to="'#main-view'">
+                <b-nav-item
+                    to="/services#main-view"
+                    v-scroll-to="{
+                        el: '#main-view',
+                        offset: $breakpoint.smAndDown ? -270 : -76
+                    }"
+                >
                     {{ $t('services') }}
                 </b-nav-item>
-                <b-nav-item to="/blog#main-view" v-scroll-to="'#main-view'">
+                <b-nav-item
+                    to="/blog#main-view"
+                    v-scroll-to="{
+                        el: '#main-view',
+                        offset: $breakpoint.smAndDown ? -270 : -76
+                    }"
+                >
                     {{ $t('blog') }}
                 </b-nav-item>
-                <b-nav-item to="/contact#main-view" v-scroll-to="'#main-view'">
+                <b-nav-item
+                    to="/contact#main-view"
+                    v-scroll-to="{
+                        el: '#main-view',
+                        offset: $breakpoint.smAndDown ? -270 : -76
+                    }"
+                >
                     {{ $t('contact') }}
                 </b-nav-item>
             </b-navbar-nav>
@@ -50,8 +74,11 @@
 </template>
 
 <script>
+import breakpoint from '../mixins/breakpoint';
+
 export default {
     name: 'TheNavbar',
+    mixins: [breakpoint],
     methods: {
         changeLocale: function(locale) {
             this.$root.$i18n.locale = locale;

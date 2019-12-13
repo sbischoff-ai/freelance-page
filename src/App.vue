@@ -70,5 +70,6 @@ h4, h5, h6 {
 #main-view {
     margin: 20px;
     flex: 1;
+    min-height: 70vh;
 }
 </style>

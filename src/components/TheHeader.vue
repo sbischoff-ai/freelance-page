@@ -36,22 +36,38 @@
         <b-container id="header-navigation">
             <b-row>
                 <b-col sm="auto">
-                    <b-link class="header-link" to="/aboutme#main-view" v-scroll-to="'#main-view'">
+                    <b-link
+                        class="header-link"
+                        to="/aboutme#main-view"
+                        v-scroll-to="{el: '#main-view', offset: -10}"
+                    >
                         {{ $t('aboutme') }}
                     </b-link>
                 </b-col>
                 <b-col sm="auto">
-                    <b-link class="header-link" to="/services#main-view" v-scroll-to="'#main-view'">
+                    <b-link
+                        class="header-link"
+                        to="/services#main-view"
+                        v-scroll-to="{el: '#main-view', offset: -10}"
+                    >
                         {{ $t('services') }}
                     </b-link>
                 </b-col>
                 <b-col sm="auto">
-                    <b-link class="header-link" to="/blog#main-view" v-scroll-to="'#main-view'">
+                    <b-link
+                        class="header-link"
+                        to="/blog#main-view"
+                        v-scroll-to="{el: '#main-view', offset: -10}"
+                    >
                         {{ $t('blog') }}
                     </b-link>
                 </b-col>
                 <b-col sm="auto">
-                    <b-link class="header-link" to="/contact#main-view" v-scroll-to="'#main-view'">
+                    <b-link
+                        class="header-link"
+                        to="/contact#main-view"
+                        v-scroll-to="{el: '#main-view', offset: -10}"
+                    >
                         {{ $t('contact') }}
                     </b-link>
                 </b-col>

@@ -38,7 +38,7 @@
                     :data="profile.languages"
                 />
             </ContentParagraph>
-            <ContentParagraph image="undraw_version_control.svg" imagePosition="right">
+            <ContentParagraph image="undraw_version_control.svg" imagePosition="right" imageWideOnly>
                 <SkillChart
                     :title="$t('technologies')"
                     :data="profile.technologies"
@@ -50,7 +50,7 @@
                     :data="profile.frameworks"
                 />
             </ContentParagraph>
-            <ContentParagraph image="undraw_programming.svg" imagePosition="right">
+            <ContentParagraph image="undraw_programming.svg" imagePosition="right" imageWideOnly>
                 <SkillChart
                     :title="$t('methods')"
                     :data="profile.methods"
