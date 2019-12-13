@@ -12,7 +12,7 @@
                 },
                 fontName: 'Quicksand',
                 fontSize: 14,
-                colors: ['#6c63ff'],
+                colors: ['#4285f4'],
                 hAxis: {
                     textPosition: 'none',
                     minValue: 0,

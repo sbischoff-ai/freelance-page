@@ -36,22 +36,22 @@
         <b-container id="header-navigation">
             <b-row>
                 <b-col sm="auto">
-                    <b-link class="header-link" to="/aboutme#main-view" @click="scrollTo('#main-view')">
+                    <b-link class="header-link" to="/aboutme#main-view" v-scroll-to="'#main-view'">
                         {{ $t('aboutme') }}
                     </b-link>
                 </b-col>
                 <b-col sm="auto">
-                    <b-link class="header-link" to="/services#main-view" @click="scrollTo('#main-view')">
+                    <b-link class="header-link" to="/services#main-view" v-scroll-to="'#main-view'">
                         {{ $t('services') }}
                     </b-link>
                 </b-col>
                 <b-col sm="auto">
-                    <b-link class="header-link" to="/blog#main-view" @click="scrollTo('#main-view')">
+                    <b-link class="header-link" to="/blog#main-view" v-scroll-to="'#main-view'">
                         {{ $t('blog') }}
                     </b-link>
                 </b-col>
                 <b-col sm="auto">
-                    <b-link class="header-link" to="/contact#main-view" @click="scrollTo('#main-view')">
+                    <b-link class="header-link" to="/contact#main-view" v-scroll-to="'#main-view'">
                         {{ $t('contact') }}
                     </b-link>
                 </b-col>
@@ -61,11 +61,8 @@
 </template>
 
 <script>
-import scrollTo from '../mixins/scrollTo';
-
 export default {
     name: "TheHeader",
-    mixins: [scrollTo],
     methods: {
         emitVisibilityEvent(linksVisible) {
             this.$emit('navigationVisibilityChange', linksVisible)

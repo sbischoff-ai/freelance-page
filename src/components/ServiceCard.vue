@@ -29,7 +29,7 @@ export default {
 
 .service-card:hover {
     transform: scale(1.1);
-    z-index: 2;
+    z-index: 1;
 }
 
 .service-card-header {

@@ -64,7 +64,7 @@ h4, h5, h6 {
 #collapse-navbar {
     top: 0;
     position: sticky;
-    z-index: 1;
+    z-index: 2;
 }
 
 #main-view {
