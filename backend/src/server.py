@@ -34,7 +34,7 @@ def test():
 )
 def submit_contact_form(name, email, message):
     msg = EmailMessage()
-    msg.set_content(bytes(message, "utf-8"), maintype="application", subtype="octet-stream")
+    msg.set_content(message)
     msg["Subject"] = name + " - " + email
     msg["From"] = "website@sbischoff.dev"
     msg["To"] = "contact@sbischoff.dev"
