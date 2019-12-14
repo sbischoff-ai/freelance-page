@@ -13,8 +13,8 @@ CORS(app)
 
 MAILJET_URL = "in-v3.mailjet.com"
 MAILJET_PORT = 25
-MAILJET_USERNAME = os.environ["MAILJET_USERNAME"] if MAILJET_USERNAME is os.environ else ""
-MAILJET_SECRET = os.environ["MAILJET_SECRET"] if MAILJET_SECRET is os.environ else ""
+MAILJET_USERNAME = os.environ["MAILJET_USERNAME"] if "MAILJET_USERNAME" in os.environ else ""
+MAILJET_SECRET = os.environ["MAILJET_SECRET"] if "MAILJET_SECRET" in os.environ else ""
 PORT = os.environ["APP_PORT"] if "APP_PORT" in os.environ else 8081
 HOST = os.environ["APP_HOST"] if "APP_HOST" in os.environ else "127.0.0.1"
 
