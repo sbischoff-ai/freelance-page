@@ -12,7 +12,7 @@
 <template>
     <div id="contact">
         <ContentArea>
-            You can reach me via <b-link href="mailto:contact@sbischoff.dev">contact@sbischoff.dev</b-link> or use the ...
+            You can reach me via <b-link href="mailto:contact@sbischoff.dev" class="link">contact@sbischoff.dev</b-link> or use the ...
             <ContentTitle icon="paper-plane">{{ $t('contactform') }}</ContentTitle>
             <ContactForm/>
         </ContentArea>

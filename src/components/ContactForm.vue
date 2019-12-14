@@ -28,8 +28,8 @@
         <b-form-group :label="$t('message')" label-for="input-message">
             <b-form-textarea id="input-message" v-model="form.message" rows="6" required></b-form-textarea>
         </b-form-group>
-        <b-button type="submit" variant="primary">{{ $t('submit') }}</b-button>
-        <b-button type="reset" variant="danger">{{ $t('reset') }}</b-button>
+        <b-button type="reset" variant="secondary" style="float: left;">{{ $t('reset') }}</b-button>
+        <b-button type="submit" variant="primary" style="float: right;">{{ $t('submit') }}</b-button>
     </b-form>
 </template>
 
