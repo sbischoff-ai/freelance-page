@@ -28,6 +28,7 @@ export default {
 .content-title {
     font-size: xx-large;
     margin-bottom: 1em;
+    margin-top: 1em;
 }
 
 .position-left {

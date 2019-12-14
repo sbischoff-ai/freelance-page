@@ -70,7 +70,7 @@ export default {
                 }
                 return dataPoint.concat([tooltip]);
             });
-            return result
+            return result;
         }
     }
 };

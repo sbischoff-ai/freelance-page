@@ -31,7 +31,8 @@
             <ContentTitle icon="address-card">{{ $t('title') }}</ContentTitle>
             <ContentParagraph image="potrait.png" imagePosition="right">{{ $t('personalinfo') }}</ContentParagraph>
             <ContentTitle icon="poll-h">{{ $t('profile') }}</ContentTitle>
-            Skills and experience ...
+            Skills and experience ... {{ test }}
+            <b-link href="https://www.google.de" class="link">This is a link</b-link>
             <ContentParagraph image="undraw_hacker_mind.svg" imagePosition="left">
                 <SkillChart
                     :title="$t('languages')"
@@ -69,6 +70,8 @@ import ContentParagraph from '../components/ContentParagraph';
 import SkillChart from '../components/SkillChart';
 import profile from '../data/profile';
 
+import client from '../libs/client';
+
 export default {
     name: 'AboutMe',
     components: {
@@ -79,8 +82,12 @@ export default {
     },
     data() {
         return {
-            profile
-        }
+            profile,
+            test: ''
+        };
+    },
+    mounted() {
+        client.getTest().then(data => {this.test = data.text;});
     }
 };
 </script>

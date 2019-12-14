@@ -81,7 +81,7 @@ export default {
     name: "TheHeader",
     methods: {
         emitVisibilityEvent(linksVisible) {
-            this.$emit('navigationVisibilityChange', linksVisible)
+            this.$emit('navigationVisibilityChange', linksVisible);
         }
     }
 };

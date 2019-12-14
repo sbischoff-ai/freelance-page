@@ -1,5 +1,5 @@
 <template>
-    <b-container fluid class="p-0 mb-4">
+    <b-container fluid class="p-0 mb-5">
         <b-row no-gutters align-v="center">
             <b-col
                 sm="4"

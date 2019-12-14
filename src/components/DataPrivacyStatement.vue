@@ -264,7 +264,7 @@
 <script>
 export default {
     name: 'DataPrivacyStatement'
-}
+};
 </script>
 
 <style>

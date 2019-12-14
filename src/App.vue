@@ -24,7 +24,7 @@ export default {
     data() {
         return {
             navbarVisible: false
-        }
+        };
     },
     methods: {
         toggleNavbar(collapseCondition) {
@@ -59,6 +59,16 @@ h1, h2, h3 {
 
 h4, h5, h6 {
     font-weight: 700;
+}
+
+.link {
+    font-weight: 700;
+    color: $blue;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: $gray-500;
 }
 
 #collapse-navbar {
