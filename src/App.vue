@@ -63,6 +63,7 @@ h3 {
 
 h4, h5, h6 {
     font-weight: 700;
+    text-transform: capitalize;
 }
 
 .link {

@@ -31,16 +31,16 @@
                     <b-row align-h="end" align-v="center">
                         <b-col><small style="white-space: nowrap;">© 2019-2020 Silas Bischoff</small></b-col>
                         <b-col>
-                            <b-link href="https://github.com/sbischoff-ai" target="_blank">
+                            <b-link href="https://github.com/sbischoff-ai" target="_blank" rel="noopener noreferrer">
                                 <font-awesome-icon :icon="['fab', 'github']" class="footer-link" size="lg"/>
                             </b-link>
-                            <b-link href="https://www.xing.com/profile/Silas_Bischoff" target="_blank">
+                            <b-link href="https://www.xing.com/profile/Silas_Bischoff" target="_blank" rel="noopener noreferrer">
                                 <font-awesome-icon :icon="['fab', 'xing']" class="footer-link" size="lg"/>
                             </b-link>
-                            <b-link href="https://www.linkedin.com/in/sbischoff" target="_blank">
+                            <b-link href="https://www.linkedin.com/in/sbischoff" target="_blank" rel="noopener noreferrer">
                                 <font-awesome-icon :icon="['fab', 'linkedin']" class="footer-link" size="lg"/>
                             </b-link>
-                            <b-link href="https://twitter.com/LeCoalfish" target="_blank">
+                            <b-link href="https://twitter.com/LeCoalfish" target="_blank" rel="noopener noreferrer">
                                 <font-awesome-icon :icon="['fab', 'twitter']" class="footer-link" size="lg"/>
                             </b-link>
                         </b-col>
