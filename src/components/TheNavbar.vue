@@ -82,6 +82,7 @@ export default {
     methods: {
         changeLocale: function(locale) {
             this.$root.$i18n.locale = locale;
+            this.$root.$emit('localeChange', locale);
         }
     }
 };

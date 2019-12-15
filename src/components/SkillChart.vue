@@ -46,7 +46,7 @@ export default {
     },
     computed: {
         rowHeight() {
-            return this.data.length * 30;
+            return this.data.length * 33;
         },
         dataWithTooltips() {
             const result = this.data.map(dataPoint => {

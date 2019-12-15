@@ -73,7 +73,7 @@ h4, h5, h6 {
 
 .link:hover {
     text-decoration: none;
-    color: $gray-500;
+    color: $gray-600;
 }
 
 #collapse-navbar {
@@ -83,7 +83,7 @@ h4, h5, h6 {
 }
 
 #main-view {
-    margin: 20px;
+    margin: 6px;
     flex: 1;
     min-height: 70vh;
 }

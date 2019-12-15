@@ -12,6 +12,9 @@ export default {
     async getDataPrivacyStatement(locale) {
         return axios.get(url + '/dataPrivacyStatement/' + locale).then(response => response.data.data);
     },
+    async getProfileData(locale) {
+        return axios.get(url + '/profile/' + locale).then(response => response.data.data);
+    },
     async submitContactForm(formData) {
         return axios.post(url + '/submitContactForm', formData);
     }

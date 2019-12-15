@@ -1,6 +1,7 @@
 import os
 from time import sleep
 from smtplib import SMTP
+import json
 
 from email.message import EmailMessage
 
@@ -27,21 +28,26 @@ def test():
         "text": "Hello, Client!"
     }
 
-def get_html(name, locale):
-    html = ""
-    with open(os.path.join(HERE_PATH, '../resources/' + name + '.' + locale + '.html'), 'r', encoding='utf-8') as f:
-        html = f.read()
-    return html
+def get_file_content(name, locale, extension):
+    file_content = ""
+    with open(os.path.join(HERE_PATH, "../resources/" + ".".join((name, locale, extension))), "r", encoding="utf-8") as f:
+        file_content = f.read()
+    return file_content
 
 @app.route("/dataPrivacyStatement/<locale>", methods=["GET"])
 @endpoint.api()
 def get_data_privacy_statement(locale):
-    return get_html('dataprivacystatement', locale)
+    return get_file_content("dataprivacystatement", locale, "html")
 
 @app.route("/legalNotice/<locale>", methods=["GET"])
 @endpoint.api()
 def get_legal_notice(locale):
-    return get_html('legalnotice', locale)
+    return get_file_content("legalnotice", locale, "html")
+
+@app.route("/profile/<locale>", methods=["GET"])
+@endpoint.api()
+def get_profile(locale):
+    return json.loads(get_file_content("profile", locale, "json"))
 
 @app.route("/submitContactForm", methods=["POST"])
 @endpoint.api(

@@ -60,7 +60,23 @@
                 />
             </ContentParagraph>
             <ContentTitle icon="tasks">{{ $t('references') }}</ContentTitle>
-            Previous projects ...
+            <div role="tablist">
+                <ProjectReference
+                    projectKey='1'
+                    title="Entwicklung eines Online-Abschlusses für ein Versicherungsunternehmen"
+                >
+                    Frontend: TypeScript, Angular 8, Dynamic Forms<br>
+                    Backend: Java, Dropwizard, REST, Kubernetes (OpenShift)
+                </ProjectReference>
+                <ProjectReference
+                    projectKey='2'
+                    title="Entwicklung eines PoC für eine KI-basierte Dokumentenverarbeitung im Underwriting"
+                >
+                    Frontend: Vue, JavaScript<br>
+                    Backend: Python, TensorFlow, SpaCy, Kubernetes (AKS)<br>
+                    APIs: Azure Computer Vision, Google Speech-to-Text
+                </ProjectReference>
+            </div>
         </ContentArea>
     </div>
 </template>
@@ -70,7 +86,7 @@ import ContentTitle from '../components/ContentTitle';
 import ContentArea from '../components/ContentArea';
 import ContentParagraph from '../components/ContentParagraph';
 import SkillChart from '../components/SkillChart';
-import profile from '../data/profile';
+import ProjectReference from '../components/ProjectReference';
 
 import client from '../libs/client';
 
@@ -80,16 +96,30 @@ export default {
       ContentTitle,
       ContentArea,
       ContentParagraph,
-      SkillChart
+      SkillChart,
+      ProjectReference
     },
     data() {
         return {
-            profile,
+            profile: {
+                languages: [],
+                frameworks: [],
+                technologies: [],
+                methods: []
+            },
             test: ''
         };
     },
     mounted() {
         client.getTest().then(data => {this.test = data.text;});
+        client.getProfileData(this.$root.$i18n.locale).then(data => {
+            this.profile = data;
+        });
+        this.$root.$on('localeChange', locale => {
+            client.getProfileData(locale).then(data => {
+                this.profile = data;
+            });
+        })
     }
 };
 </script>
