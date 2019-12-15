@@ -13,6 +13,7 @@ RUN poetry install --no-dev --no-interaction
 
 # Get service source files.
 COPY ./src/ ./src/
+COPY ./resources ./resources
 
 ENV APP_HOST="0.0.0.0"
 ENV APP_PORT=8081
