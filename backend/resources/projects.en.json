@@ -1,0 +1,59 @@
+[
+    {
+        "title": "Development of an Online Application for Signal Iduna insurance",
+        "position": "Full-Stack Developer",
+        "description": "Together with another developer, I implemented a complete online contract for a new insurance product within three weeks.",
+        "tasks": [
+            "Development of a frontend based on Angular Dynamic Forms",
+            "Development of product-specific Java services for the group-wide OpenShift cluster",
+            "Setting up the CI/CD pipelines for the project"
+        ],
+        "keywords": ["Insurance", "TypeScript", "Angular 8", "Java", "Dropwizard", "REST", "OpenShift", "Scrum"]
+    },
+    {
+        "title": "openVALIDATION",
+        "position": "Full-Stack Developer",
+        "description": "I am one of the core developers of the open source project openVALIDATION created at BROCKHAUS AG. It is a software for translating validation rules from natural language into executable Java, C #, JavaScript, or Python source code. BiPRO, a standardization association of the German insurance industry, is expected to include openVALIDATION in the upcoming RNext interface standard.",
+        "tasks": [
+            "Strategic and technological participation the project",
+            "Development of the Python code generator",
+            "Development of features and integration tests",
+            "Setting up CI/CD pipelines, automation of Maven releases and GitHub administration"
+        ],
+        "keywords": ["Java", "ANTLR", "Maven", "Python", "Code Generation", "Compiler Development", "Test Automation", "OpenAPI", "DevOps", "GitHub", "Open Source", "No-Code"]
+    },
+    {
+        "title": "PoC for AI-based document processing in medical underwriting",
+        "position": "Data Scientist, AI Engineer",
+        "description": "I developed a prototype AI system for the automated processing of unstructured documents, consisting of various Python services and a REST API. The range of functions includes image-based document classification and semantic parsing of natural language text for information extraction in a structured target data model.",
+        "tasks": [
+            "Architectural design of convolutional neural networks based on current scientific knowledge",
+            "Implementation of a semantic parsing pipeline that combines deep learning and computational linguistic approaches",
+            "Development of a feedback learning process for the self-optimization of machine learning models"
+        ],
+        "keywords": ["Python", "TensorFlow", "Cuda", "Convolutional Neural Networks", "SpaCy", "Computational Linguistics", "REST", "Microservices", "Document Classification", "Semantic Parsing", "Azure Cloud", "Docker"]
+    },
+    {
+        "title": "Data-driven MVP test and backend development for Wifi@DB",
+        "position": "Data Scientist, Backend Developer",
+        "description": "As part of a digitization project of Deutsche Bahn, I developed modern mobile app solutions in the areas of mobility and entertainment as a member of a highly agile development team in lean startup format.",
+        "tasks": [
+            "Conceptualization and development of AI-based, personalized and contextualized content curation",
+            "Statistical data analysis for data-driven MVP tests",
+            "Support in planning, development and administration of the data analytics infrastructure",
+            "General support in the backend and DevOps area"
+        ],
+        "keywords": ["Transportation", "Google Cloud", "Kubernetes", "Google BigQuery", " Google DataStudio", "Google Datalab", "Firebase", "Node.js", "React Native", "iOS", "Mobile App Tracking", "A/B Testing", "Python", "Advanced Analytics", "Microservices", "Domain-Driven Design", "GraphQL", "Lean Startup"]
+    },
+    {
+        "title": "UI test automation and IT offshoring for Itergo",
+        "position": "IT Consultant",
+        "description": "In an operating team for the web-based sales system of ERGO Versicherung, I supported an offshoring project with the Indian partner company Tata Consulting Services.",
+        "tasks": [
+            "Design of a test and test automation strategy",
+            "Knowledge transfer to Indian offshore employees",
+            "Prototyping test automation tools"
+        ],
+        "keywords": ["Insurance", "Offshoring", "C#", ".NET", "Selenium", "Keyword-driven Testing", "Data-driven Testing", "Test Strategy"]
+    }
+]

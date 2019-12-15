@@ -15,6 +15,9 @@ export default {
     async getProfileData(locale) {
         return axios.get(url + '/profile/' + locale).then(response => response.data.data);
     },
+    async getProjectData(locale) {
+        return axios.get(url + '/projects/' + locale).then(response => response.data.data);
+    },
     async submitContactForm(formData) {
         return axios.post(url + '/submitContactForm', formData);
     }

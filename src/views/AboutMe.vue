@@ -33,8 +33,6 @@
                 <p v-html="$t('personalinfo')"></p> 
             </ContentParagraph>
             <ContentTitle icon="poll-h">{{ $t('profile') }}</ContentTitle>
-            Skills and experience ... {{ test }}
-            <b-link href="https://www.google.de" class="link">This is a link</b-link>
             <ContentParagraph image="undraw_hacker_mind.svg" imagePosition="left">
                 <SkillChart
                     :title="$t('languages')"
@@ -60,23 +58,7 @@
                 />
             </ContentParagraph>
             <ContentTitle icon="tasks">{{ $t('references') }}</ContentTitle>
-            <div role="tablist">
-                <ProjectReference
-                    projectKey='1'
-                    title="Entwicklung eines Online-Abschlusses für ein Versicherungsunternehmen"
-                >
-                    Frontend: TypeScript, Angular 8, Dynamic Forms<br>
-                    Backend: Java, Dropwizard, REST, Kubernetes (OpenShift)
-                </ProjectReference>
-                <ProjectReference
-                    projectKey='2'
-                    title="Entwicklung eines PoC für eine KI-basierte Dokumentenverarbeitung im Underwriting"
-                >
-                    Frontend: Vue, JavaScript<br>
-                    Backend: Python, TensorFlow, SpaCy, Kubernetes (AKS)<br>
-                    APIs: Azure Computer Vision, Google Speech-to-Text
-                </ProjectReference>
-            </div>
+            <ProjectReferenceList :projects="projects"/>
         </ContentArea>
     </div>
 </template>
@@ -86,7 +68,7 @@ import ContentTitle from '../components/ContentTitle';
 import ContentArea from '../components/ContentArea';
 import ContentParagraph from '../components/ContentParagraph';
 import SkillChart from '../components/SkillChart';
-import ProjectReference from '../components/ProjectReference';
+import ProjectReferenceList from '../components/ProjectReferenceList';
 
 import client from '../libs/client';
 
@@ -97,7 +79,7 @@ export default {
       ContentArea,
       ContentParagraph,
       SkillChart,
-      ProjectReference
+      ProjectReferenceList
     },
     data() {
         return {
@@ -107,17 +89,22 @@ export default {
                 technologies: [],
                 methods: []
             },
-            test: ''
+            projects: []
         };
     },
     mounted() {
-        client.getTest().then(data => {this.test = data.text;});
         client.getProfileData(this.$root.$i18n.locale).then(data => {
             this.profile = data;
+        });
+        client.getProjectData(this.$root.$i18n.locale).then(data => {
+            this.projects = data;
         });
         this.$root.$on('localeChange', locale => {
             client.getProfileData(locale).then(data => {
                 this.profile = data;
+            });
+            client.getProjectData(locale).then(data => {
+                this.projects = data;
             });
         })
     }

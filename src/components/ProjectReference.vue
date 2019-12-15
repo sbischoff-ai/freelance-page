@@ -1,22 +1,39 @@
+<i18n>
+{
+    "en": {
+        "position": "Position",
+        "tasks": "Tasks"
+    },
+    "de": {
+        "position": "Position",
+        "tasks": "Aufgaben"
+    }
+}
+</i18n>
+
 <template>
     <div class="mb-2">
-    <!--<b-card no-body class="mb-1">
-        <b-card-header header-tag="header" class="p-1" role="tab">-->
         <div role="tab" class="p-1 mb-1">
             <b-link
                 v-b-toggle="projectKey"
-                class="project-card-button"
+                class="project-card-header"
             >
-                <font-awesome-icon icon="caret-right" class="project-card-caret mr-2"/> <b>{{ title }}</b>
+                <font-awesome-icon icon="caret-right" class="project-card-caret mr-2"/>
+                <b class="project-card-title">{{ project.title }}</b>
             </b-link>
         </div>
-        <!--</b-card-header>-->
-        <b-collapse :id="projectKey" accordion="projects-accordion" role="tabpanel">
-            <!--<b-card-body>
-                <b-card-text>--><slot></slot><!--</b-card-text>
-            </b-card-body>-->
+        <b-collapse :id="projectKey" accordion="projects-accordion" role="tabpanel" class="ml-3">
+            <div class="mb-1"><b>{{ $t('position') }}:</b> {{ project.position }}</div>
+            <div v-html="project.description" class="mb-1"></div>
+            <b>{{ $t('tasks') }}:</b>
+            <ul>
+                <li v-for="(task, idx) in project.tasks" :key="idx">{{ task }}</li>
+            </ul>
+            <hr>
+            <b-badge v-for="(keyword, idx) in project.keywords" :key="idx" variant="primary" class="m-1">
+                {{ keyword }}
+            </b-badge>
         </b-collapse>
-    <!--</b-card>-->
     </div>
 </template>
 
@@ -25,7 +42,13 @@ export default {
     name: 'ProjectReference',
     props: {
         projectKey: String,
-        title: String
+        project: {
+            title: String,
+            description: String,
+            position: String,
+            tasks: Array,
+            keywords: Array
+        }
     }
 };
 </script>
@@ -40,16 +63,21 @@ export default {
 
 :not(.collapsed) > .project-card-caret {
     transform: rotate(90deg);
+    color: $blue;
 }
 
-.project-card-button {
+.project-card-header {
     text-align: start;
     margin: 5px;
     color: $gray-700;
 }
 
-.project-card-button:hover {
+.project-card-header:hover {
     color: $blue;
     text-decoration: none;
+}
+
+:not(.collapsed) > .project-card-title {
+    color: $blue;
 }
 </style>

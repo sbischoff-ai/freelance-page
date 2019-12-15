@@ -1,0 +1,59 @@
+[
+    {
+        "title": "Entwicklung einer Antragsstrecke für die Signal Iduna Versicherung",
+        "position": "Full-Stack-Entwickler",
+        "description": "Zusammen mit einem weiteren Entwickler habe ich innerhalb von drei Wochen einen kompletten Onlineabschluss für ein neues Versicherungsprodukt implementiert.",
+        "tasks": [
+            "Entwicklung eines Frontends auf Basis von Angular Dynamic Forms",
+            "Entwicklung produktspezifischer Java-Services für das konzernweite OpenShift-Cluster",
+            "Aufsetzen der CI/CD-Pipelines für das Projekt"
+        ],
+        "keywords": ["Versicherung", "TypeScript", "Angular 8", "Java", "Dropwizard", "REST", "OpenShift", "Scrum"]
+    },
+    {
+        "title": "openVALIDATION",
+        "position": "Full-Stack-Entwickler",
+        "description": "Ich bin einer der Kernentwickler des in der BROCKHAUS AG entstandenen Open-Source-Projektes openVALIDATION. Dabei handelt es sich um eine Software zur zur Übersetzung von Validierungsregeln aus natürlicher Sprache in lauffähigen Java-, C#-, JavaScript, oder Python-Quellcode. BiPRO, ein Standardisierungsverband der deutschen Versicherungsbranche, wird openVALIDATION voraussichtlich in den kommenden Schnittstellen-Standard RNext aufnehmen.",
+        "tasks": [
+            "Strategische und technologische Mitgestaltung des Projekts",
+            "Entwicklung des Python-Code-Generators",
+            "Entwicklung von Features und Integrationstests",
+            "Aufsetzen von CI/CD-Pipelines, Automatisierung von Maven-Releases und GitHub-Administration"
+        ],
+        "keywords": ["No-Code", "Java", "ANTLR", "Maven", "Python", "Codegenerierung", "Compilerentwicklnug", "Testautomatisierung", "OpenAPI", "DevOps", "GitHub", "Open Source"]
+    },
+    {
+        "title": "PoC für KI-basierte Dokumentenverarbeitung im Medizinischen Underwriting",
+        "position": "Data Scientist, KI-Entwickler",
+        "description": "Ich habe ein prototypisches KI-System für die automatisierte Verarbeitung unstrukturierter Dokumente entwickelt, bestehend aus verschiedenen Python-Services und einer REST-API. Der Funktionsumfang umfasst bildbasierte Dokumentenklassifikation und semantisches Parsing von natürlich-sprachlichem Text zur Informationsextraktion in ein strukturiertes Zieldatenmodell.",
+        "tasks": [
+            "Architekturdesign konvolutionaler neuronaler Netze basierend auf aktuellen wissenschaftlichen Erkenntnissen",
+            "Implementierung einer Semantic-Parsing-Pipeline, die Deep-Learning- und Computerlinguistik-Ansätze kombiniert",
+            "Entwicklung eines Feedback-Learning-Verfahrens für die Selbstoptimierung von Machine-Learning-Modellen"
+        ],
+        "keywords": ["Python", "TensorFlow", "Cuda", "Konvolutionale Neuronale Netze", "SpaCy", "Computerlinguistik", "REST", "Microservices", "Dokumentenklassifizierung", "Semantic Parsing", "Azure Cloud", "Docker"]
+    },
+    {
+        "title": "Datengetriebener MVP-Test und Backend-Entwicklung für Wifi@DB",
+        "position": "Data Scientist, Backend-Entwickler",
+        "description": "Im Rahmen eines Digitalisierungsprojekts der Deutschen Bahn habe ich als Mitglied eines hochgradig agilen Entwicklungsteam im Lean-Startup-Format moderne Mobile-App-Lösungen in den Bereichen Mobility und Entertainment erarbeitet.",
+        "tasks": [
+            "Konzeptionalisierung und Entwicklung KI-basierter personalisierter und kontextualisierter Content-Kuratierung",
+            "Statistische Datenanalysen für datengetriebene MVP-Tests",
+            "Unterstützung bei Planung, Entwicklung und Administration der Data-Analytics-Infrastruktur",
+            "Allgemeine Unterstützung im Backend- und DevOps-Bereich"
+        ],
+        "keywords": ["Transport", "Google Cloud", "Kubernetes", "Google BigQuery", " Google DataStudio", "Google Datalab", "Firebase", "Node.js", "React Native", "iOS", "Mobile App Tracking", "A/B Testing", "Python", "Advanced Analytics", "Microservices", "Domain-Driven Design", "GraphQL", "Lean Startup"]
+    },
+    {
+        "title": "UI-Testautomatisierung und IT-Offshoring für Itergo",
+        "position": "IT Consultant",
+        "description": "In einem Betriebsteam für das webbasierte Vertriebssystem der ERGO Versicherung habe ich ein Offshoring-Projekt mit dem indischen Partnerunternehmen Tata Consulting Services unterstützt.",
+        "tasks": [
+            "Entwurf einer Test- und Testautomatisierungsstrategie",
+            "Wissenstransfer zu indischen Offshore-Mitarbeitern",
+            "Prototyping von Testautomatisierungstools"
+        ],
+        "keywords": ["Versicherung", "Offshoring", "C#", ".NET", "Selenium", "Stichwortgetriebenes Testen", "Datengetriebenes Testen", "Teststrategie"]
+    }
+]

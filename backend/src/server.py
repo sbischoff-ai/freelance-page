@@ -49,6 +49,11 @@ def get_legal_notice(locale):
 def get_profile(locale):
     return json.loads(get_file_content("profile", locale, "json"))
 
+@app.route("/projects/<locale>", methods=["GET"])
+@endpoint.api()
+def get_projects(locale):
+    return json.loads(get_file_content("projects", locale, "json"))
+
 @app.route("/submitContactForm", methods=["POST"])
 @endpoint.api(
     parameter("name", type=str, required=True),
