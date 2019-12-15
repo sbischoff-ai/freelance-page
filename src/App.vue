@@ -57,6 +57,10 @@ h1, h2, h3 {
     font-weight: 700;
 }
 
+h3 {
+    font-size: x-large !important;
+}
+
 h4, h5, h6 {
     font-weight: 700;
 }

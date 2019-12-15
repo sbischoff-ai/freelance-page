@@ -1,8 +1,8 @@
 <i18n>
 {
     "en": {
-        "title": "About Me",
-        "personalinfo": "Hello, my name is Silas Bischoff. I'm a freelance software developer and data scientist. The things I could do for you include (but are not limited to): Professional analysis of your business segments or client base, complete development of a data-driven application from conception to integration, or just providing full-stack backup as a member of your development team.",
+        "person": "Person",
+        "personalinfo": "Hello, my name is Silas Bischoff. I'm a freelance software developer and data scientist. The things I could do for you include, for example: <ul><li>A professional analysis of your business segments or customer base,</li> <li>the complete development of a data-driven application from conception to integration,</li> <li>or simply full-stack support as a member of your development team.</li></ul>",
         "personalinfo2": "",
         "profile": "Profile",
         "languages": "Programming Languages",
@@ -12,8 +12,8 @@
         "references": "References"
     },
     "de": {
-        "title": "Über Mich",
-        "personalinfo": "Hallo, mein Name ist Silas Bischoff. Ich bin ein freiberuflicher Softwareentwickler und Data Scientist. Die Dinge, die ich für Sie tun könnte, beinhalten zu, Beispiel: Eine professionelle Analyse Ihrer Geschäftsfelder oder Ihres Kundenstammes, die vollständige Entwicklung einer datengetriebenen Anwendung von Konzeption bis Intgration, oder einfach Full-Stack-Unterstützung als Mitglied Ihres Entwicklungsteams.",
+        "person": "Person",
+        "personalinfo": "Hallo, mein Name ist Silas Bischoff. Ich bin ein freiberuflicher Softwareentwickler und Data Scientist. Die Dinge, die ich für Sie tun könnte, beinhalten beispielsweise: <ul><li>Eine professionelle Analyse Ihrer Geschäftsfelder oder Ihres Kundenstammes,</li> <li>die vollständige Entwicklung einer datengetriebenen Anwendung von Konzeption bis Intgration,</li> <li>oder einfach Full-Stack-Unterstützung als Mitglied Ihres Entwicklungsteams.</li></ul>",
         "personalinfo2": "",
         "profile": "Profil",
         "languages": "Programmiersprachen",
@@ -28,8 +28,10 @@
 <template>
     <div id="about-me">
         <ContentArea>
-            <ContentTitle icon="address-card">{{ $t('title') }}</ContentTitle>
-            <ContentParagraph image="potrait.png" imagePosition="right">{{ $t('personalinfo') }}</ContentParagraph>
+            <ContentTitle icon="portrait">{{ $t('person') }}</ContentTitle>
+            <ContentParagraph image="potrait.png" imagePosition="right">
+                <p v-html="$t('personalinfo')"></p> 
+            </ContentParagraph>
             <ContentTitle icon="poll-h">{{ $t('profile') }}</ContentTitle>
             Skills and experience ... {{ test }}
             <b-link href="https://www.google.de" class="link">This is a link</b-link>

@@ -48,7 +48,7 @@
                 </b-col>
             </b-row>
         </b-container>
-        <b-modal id="modal-data-privacy" size="xl" scrollable hide-footer centered :title=" $t('dataprivacystatement')">
+        <b-modal id="modal-data-privacy" size="xl" scrollable hide-footer centered :title="$t('dataprivacystatement')">
             <DataPrivacyStatment/>
         </b-modal>
         <b-modal id="modal-legal-notice" size="lg" scrollable hide-footer centered :title="$t('legalnotice')">
