@@ -1,16 +1,31 @@
+<i18n>
+{
+    "en": {
+        "wip": "Detailed descriptions for my services are following soon!"
+    },
+    "de": {
+        "wip": "Detaillierte Beschreibungen meiner Dienstleistungsangebote folgen bald!"
+    }
+}
+</i18n>
+
 <template>
     <div class="catalog">
         <b-container>
-            <b-row>
-                <b-col v-for="service in services" :key="service.title" style="height: 21rem;">
+            <b-row align-h="around">
+                <b-col md="6" lg="3" v-for="service in services" :key="service.title" style="height: 21rem;">
                     <ServiceCard
+                        v-b-modal.wip-modal
                         v-bind:title="service.title"
                         v-bind:image="service.image"
-                        style="height: 90%;"
+                        style="height: 90%; margin: auto;"
                     />
                 </b-col>
             </b-row>
         </b-container>
+        <b-modal id="wip-modal" ok-only centered hide-header>
+            {{ $t('wip' )}}
+        </b-modal>
     </div>
 </template>
 

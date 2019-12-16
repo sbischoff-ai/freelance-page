@@ -23,14 +23,14 @@
             </b-link>
         </div>
         <b-collapse :id="projectKey" accordion="projects-accordion" role="tabpanel" class="ml-3">
-            <div class="mb-1"><b>{{ $t('position') }}:</b> {{ project.position }}</div>
+            <div class="project-position"><b>{{ $t('position') }}:</b> <i>{{ project.position }}</i></div>
             <div v-html="project.description" class="mb-1"></div>
             <b>{{ $t('tasks') }}:</b>
             <ul>
                 <li v-for="(task, idx) in project.tasks" :key="idx">{{ task }}</li>
             </ul>
             <hr>
-            <b-badge v-for="(keyword, idx) in project.keywords" :key="idx" variant="primary" class="m-1">
+            <b-badge v-for="(keyword, idx) in project.keywords" :key="idx" variant="secondary" class="m-1">
                 {{ keyword }}
             </b-badge>
         </b-collapse>
@@ -79,5 +79,9 @@ export default {
 
 :not(.collapsed) > .project-card-title {
     color: $blue;
+}
+
+.project-position {
+    margin-bottom: 1px;
 }
 </style>
