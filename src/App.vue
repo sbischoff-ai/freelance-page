@@ -32,6 +32,24 @@ export default {
                 this.$root.$emit('bv::toggle::collapse', 'collapse-navbar');
             }
         }
+    },
+    mounted() {
+        const recursiveElementLookup = (element, recursions, action) => {
+            console.log(element); // eslint-disable-line no-console
+            console.log(document.getElementById(element)); // eslint-disable-line no-console
+            if (document.getElementById(element)) {
+                action();
+            } else if (recursions > 0) {
+                setTimeout(() => {
+                    recursiveElementLookup(element, recursions-1, action)
+                }, 1);
+            }
+        }
+        if(location.hash) {
+            recursiveElementLookup(location.hash.substring(1), 1000, () => {
+                this.$scrollTo(location.hash, 500, { offset: -10 });
+            });
+        }
     }
 };
 </script>
