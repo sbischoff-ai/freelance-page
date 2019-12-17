@@ -43,6 +43,9 @@ export default {
         ContentArea,
         ContentTitle,
         ContentParagraph
+    },
+    mounted() {
+        this.$scrollTo('#main-view', 500, { offset: -10 })
     }
 };
 </script>

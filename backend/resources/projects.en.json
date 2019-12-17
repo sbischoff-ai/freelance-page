@@ -1,14 +1,14 @@
 [
     {
-        "title": "Development of an Online Application for an insurance company",
+        "title": "Development of an online insurance application",
         "position": "Full-Stack Developer",
-        "description": "Together with another developer, I implemented a complete online contract for a new insurance product within three weeks.",
+        "description": "Together with another developer, I implemented a complete online contract for a new insurance product within three weeks for a german insurance company.",
         "tasks": [
             "Development of a frontend based on Angular Dynamic Forms",
             "Development of product-specific Java services for the group-wide OpenShift cluster",
             "Setting up the CI/CD pipelines for the project"
         ],
-        "keywords": ["Insurance", "TypeScript", "Angular 8", "Java", "Dropwizard", "REST", "OpenShift", "Scrum"]
+        "keywords": ["Insurance", "TypeScript", "Angular 8", "Java", "Dropwizard", "REST", "OpenShift", "Jenkins", "Jira", "Scrum"]
     },
     {
         "title": "openVALIDATION",

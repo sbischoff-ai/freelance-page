@@ -6,9 +6,9 @@
         ["C#", 3],
         ["SQL", 3],
         ["GraphQL", 3],
-        ["C/C++", 2],
+        ["C/C++", 3],
         ["HTML/CSS", 2],
-        ["R", 1],
+        ["R", 2],
         ["Scala", 1],
         ["Haskell", 1],
         ["Rust", 1]
@@ -17,21 +17,24 @@
         ["keras/tensorflow", 4],
         ["spaCy", 4],
         ["sklearn", 4],
-        ["Flask", 3],
+        ["Flask", 4],
         ["Vue.js", 3],
-        ["Angular", 2],
+        ["Angular", 3],
         ["React.js", 2],
         [".NET", 2],
+        ["Dropwizard", 2],
         ["Spring", 1]
     ],
     "technologies": [
         ["Docker", 4],
         ["Git", 4],
-        ["Kubernetes", 3],
-        ["Azure DevOps", 3],
+        ["Kubernetes", 4],
+        ["Azure DevOps", 4],
         ["MongoDB", 3],
         ["PostgreSQL", 3],
         ["Hadoop", 2],
+        ["Maven", 2],
+        ["Jenkins", 2],
         ["Firebase", 1]
     ],
     "methods": [
@@ -44,6 +47,7 @@
         ["Test Automation", 3],
         ["Lean Startup", 3],
         ["Agile", 3],
-        ["SOA", 2]
+        ["SOA", 2],
+        ["Domain-driven Design", 2]
     ]
 }

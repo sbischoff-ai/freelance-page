@@ -7,7 +7,7 @@
     "contact": "Contact"
   },
   "de": {
-    "aboutme": "Über Mich",
+    "aboutme": "Über mich",
     "services": "Services",
     "blog": "Blog",
     "contact": "Kontakt"

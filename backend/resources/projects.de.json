@@ -8,7 +8,7 @@
             "Entwicklung produktspezifischer Java-Services für das konzernweite OpenShift-Cluster",
             "Aufsetzen der CI/CD-Pipelines für das Projekt"
         ],
-        "keywords": ["Versicherung", "TypeScript", "Angular 8", "Java", "Dropwizard", "REST", "OpenShift", "Scrum"]
+        "keywords": ["Versicherung", "TypeScript", "Angular 8", "Java", "Dropwizard", "REST", "OpenShift", "Jenkins", "Jira", "Scrum"]
     },
     {
         "title": "openVALIDATION",

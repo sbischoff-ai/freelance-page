@@ -63,25 +63,25 @@ export default {
 
 :not(.collapsed) > .project-card-caret {
     transform: rotate(90deg);
-    color: $blue;
+    color: $gray-700;
 }
 
 .project-card-header {
     text-align: start;
     margin: 5px;
-    color: $gray-700;
+    color: $blue;
 }
 
 .project-card-header:hover {
-    color: $blue;
+    color: $gray-600;
     text-decoration: none;
 }
 
 :not(.collapsed) > .project-card-title {
-    color: $blue;
+    color: $gray-700;
 }
 
 .project-position {
-    margin-bottom: 1px;
+    margin-bottom: 5px;
 }
 </style>
