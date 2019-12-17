@@ -1,7 +1,7 @@
 [
     {
         "title": "Entwicklung einer Online-Antragsstrecke für ein Versicherungsunternehmen",
-        "position": "Full-Stack-Entwickler",
+        "position": "Fullstack-Entwickler",
         "description": "Zusammen mit einem weiteren Entwickler habe ich innerhalb von drei Wochen einen kompletten Onlineabschluss für ein neues Versicherungsprodukt implementiert.",
         "tasks": [
             "Entwicklung eines Frontends auf Basis von Angular Dynamic Forms",
@@ -12,7 +12,7 @@
     },
     {
         "title": "openVALIDATION",
-        "position": "Full-Stack-Entwickler",
+        "position": "Fullstack-Entwickler",
         "description": "Ich bin einer der Kernentwickler des in der <a href=\"https://www.brockhaus-ag.de\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"link\">BROCKHAUS AG</a> entstandenen Open-Source-Projektes openVALIDATION (<a href=\"https://docs.openvalidation.io\" target=\"_blank\" ref=\"noopener noreferrer\" class=\"link\">docs.openvalidation.io</a>). Dabei handelt es sich um eine Software zur zur Übersetzung von Validierungsregeln aus natürlicher Sprache in lauffähigen Java-, C#-, JavaScript, oder Python-Quellcode. <i>BiPRO</i>, ein Standardisierungsverband der deutschen Versicherungsbranche, wird openVALIDATION voraussichtlich in den kommenden Schnittstellenstandard \"RNext\" aufnehmen.",
         "tasks": [
             "Strategische und technologische Mitgestaltung des Projekts",
@@ -43,7 +43,7 @@
             "Unterstützung bei Planung, Entwicklung und Administration der Data-Analytics-Infrastruktur",
             "Allgemeine Unterstützung im Backend- und DevOps-Bereich"
         ],
-        "keywords": ["Transport", "Google Cloud", "Kubernetes", "Google BigQuery", " Google DataStudio", "Google Datalab", "Firebase", "Node.js", "React Native", "iOS", "Mobile App Tracking", "A/B Testing", "Python", "Advanced Analytics", "Microservices", "Domain-Driven Design", "GraphQL", "Lean Startup"]
+        "keywords": ["Transport", "Google Cloud", "Kubernetes", "Google BigQuery", " Google DataStudio", "Google Datalab", "Firebase", "Node.js", "React Native", "iOS", "Mobile App Tracking", "A/B Testing", "Python", "Advanced Analytics", "Microservices", "Domain-driven Design", "GraphQL", "Lean Startup"]
     },
     {
         "title": "UI-Testautomatisierung und IT-Offshoring für ein Versicherungsunternehmen",
