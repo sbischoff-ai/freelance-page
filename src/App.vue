@@ -35,8 +35,6 @@ export default {
     },
     mounted() {
         const recursiveElementLookup = (element, recursions, action) => {
-            console.log(element); // eslint-disable-line no-console
-            console.log(document.getElementById(element)); // eslint-disable-line no-console
             if (document.getElementById(element)) {
                 action();
             } else if (recursions > 0) {
