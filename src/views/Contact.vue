@@ -45,7 +45,8 @@ export default {
         ContentParagraph
     },
     mounted() {
-        this.$scrollTo('#main-view', 500, { offset: -10 })
+        if (this.$el.scrollTop < 10)
+            this.$scrollTo('#main-view', 500, { offset: -10 })
     }
 };
 </script>

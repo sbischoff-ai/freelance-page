@@ -52,6 +52,13 @@ export default {
     background-color: $gray-100;
 }
 
+
+@media screen and (max-width: 570px) {
+    #app {
+        font-size: smaller;
+    }
+}
+
 h1, h2, h3 {
     text-transform: uppercase;
     font-weight: 700;

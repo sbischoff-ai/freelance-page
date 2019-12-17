@@ -114,7 +114,8 @@ export default {
 .header-subtitle {
     color: $gray-100;
     text-align: left;
-    font-family: 'Roboto Mono', 'Consolas', monospace
+    font-family: 'Roboto Mono', 'Consolas', monospace;
+    margin-bottom: 10px;
 }
 
 .header-subtitle p {
@@ -131,6 +132,7 @@ export default {
     margin-left: 15%;
     margin-right: 15%;
     max-width: 70%;
+    text-align: end;
 }
 
 @media screen and (min-width: 920px) {

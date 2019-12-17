@@ -25,7 +25,7 @@
     {
         "title": "PoC für KI-basierte Dokumentenverarbeitung im Medizinischen Underwriting",
         "position": "Data Scientist, KI-Entwickler",
-        "description": "Ich habe ein prototypisches KI-System für die automatisierte Verarbeitung unstrukturierter Dokumente entwickelt, bestehend aus verschiedenen Python-Services und einer REST-API. Der Funktionsumfang umfasst bildbasierte Dokumentenklassifikation und semantisches Parsing von natürlich-sprachlichem Text zur Informationsextraktion in ein strukturiertes Zieldatenmodell.",
+        "description": "Ich habe ein prototypisches KI-System für die automatisierte Dokumentenverarbeitung bei einer Rückversicherung entwickelt, bestehend aus verschiedenen Python-Services und einer REST-API. Der Funktionsumfang umfasst bildbasierte Dokumentenklassifikation und semantisches Parsing von natürlich-sprachlichem Text zur Informationsextraktion in ein strukturiertes Zieldatenmodell.",
         "tasks": [
             "Architekturdesign konvolutionaler neuronaler Netze basierend auf aktuellen wissenschaftlichen Erkenntnissen",
             "Implementierung einer Semantic-Parsing-Pipeline, die Deep-Learning- und Computerlinguistik-Ansätze kombiniert",
@@ -36,7 +36,7 @@
     {
         "title": "Datengetriebener MVP-Test und Backend-Entwicklung für Wifi@DB",
         "position": "Data Scientist, Backend-Entwickler",
-        "description": "Im Rahmen eines Digitalisierungsprojekts der Deutschen Bahn habe ich als Mitglied eines hochgradig agilen Entwicklungsteam im Lean-Startup-Format moderne Mobile-App-Lösungen in den Bereichen Mobility und Entertainment erarbeitet.",
+        "description": "Im Rahmen eines Digitalisierungsprojekts der Deutschen Bahn habe ich als Mitglied eines hochgradig agilen Entwicklungsteams im Lean-Startup-Format moderne Mobile-App-Lösungen in den Bereichen Mobility und Entertainment erarbeitet.",
         "tasks": [
             "Konzeptionalisierung und Entwicklung KI-basierter personalisierter und kontextualisierter Content-Kuratierung",
             "Statistische Datenanalysen für datengetriebene MVP-Tests einer iOS App",

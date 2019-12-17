@@ -23,7 +23,7 @@
             </b-navbar-brand>
             <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
             <b-collapse id="nav-collapse" is-nav>
-            <b-navbar-nav>
+            <b-navbar-nav class="text-left">
                 <b-nav-item
                     to="/aboutme#main-view"
                     v-scroll-to="{
@@ -62,7 +62,7 @@
                 </b-nav-item>
             </b-navbar-nav>
 
-            <b-navbar-nav class="ml-auto">
+            <b-navbar-nav class="ml-auto text-left">
                 <b-nav-item-dropdown :text="$i18n.locale" right>
                     <b-dropdown-item-button @click="changeLocale('en')">en</b-dropdown-item-button>
                     <b-dropdown-item-button @click="changeLocale('de')">de</b-dropdown-item-button>

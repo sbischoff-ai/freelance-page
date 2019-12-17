@@ -10,7 +10,7 @@
         "frameworks": "Frameworks",
         "methods": "Methods",
         "references": "References",
-        "bagreferenceintro": "Here is an excerpt from the projects that I worked on as a permanent employee of the IT consulting company <a href='https://www.linkedin.com/in/sbischoff' target='_blank' rel='noopener noreferrer' class='link'>BROCKHAUS AG</a> for various customers:"
+        "bagreferenceintro": "Here is an excerpt from the projects that I worked on for various customers as a permanent employee of the IT consulting company <a href='https://www.brockhaus-ag.de' target='_blank' rel='noopener noreferrer' class='link'>BROCKHAUS AG</a>:"
     },
     "de": {
         "person": "Person",
@@ -22,7 +22,7 @@
         "frameworks": "Frameworks",
         "methods": "Methoden",
         "references": "Referenzen",
-        "bagreferenceintro": "Hier finden Sie einen Auszug aus den Projekten, die ich als festangestellter Consultant der <a href='https://www.linkedin.com/in/sbischoff' target='_blank' rel='noopener noreferrer' class='link'>BROCKHAUS AG</a> für verschiedene Kunden bearbeitet habe:"
+        "bagreferenceintro": "Hier finden Sie einen Auszug aus den Projekten, die ich als festangestellter Consultant der <a href='https://www.brockhaus-ag.de' target='_blank' rel='noopener noreferrer' class='link'>BROCKHAUS AG</a> für verschiedene Kunden bearbeitet habe:"
     }
 }
 </i18n>
