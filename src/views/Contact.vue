@@ -43,6 +43,12 @@ export default {
         ContentArea,
         ContentTitle,
         ContentParagraph
+    },
+    mounted() {
+        if (location.hash === '#' || !location.hash){
+            this.hash = '#main-view';
+            this.$scrollTo('#main-view', 500, { offset: -10 });
+        }
     }
 };
 </script>
