@@ -9,6 +9,17 @@ import App from './App.vue';
 
 Vue.config.productionTip = false;
 
+router.beforeEach((to, from, next) => { // eslint-disable-line no-unused-vars
+  if (i18n.availableLocales.includes(to.params['lang'])) {
+    i18n.locale = to.params['lang'];
+    next();
+  } else if (to.matched.length > 0) {
+    location.href = to.fullPath.replace(to.params['lang'], i18n.locale);
+  } else {
+    next('/');
+  }
+});
+
 new Vue({
   i18n,
   router,

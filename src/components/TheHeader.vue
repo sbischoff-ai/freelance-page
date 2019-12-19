@@ -38,7 +38,7 @@
                 <b-col sm="auto">
                     <b-link
                         class="header-link"
-                        to="/aboutme#main-view"
+                        :to="'/' + $i18n.locale + '/aboutme#main-view'"
                         v-scroll-to="{el: '#main-view', offset: -10}"
                     >
                         {{ $t('aboutme') }}
@@ -47,7 +47,7 @@
                 <b-col sm="auto">
                     <b-link
                         class="header-link"
-                        to="/services#main-view"
+                        :to="'/' + $i18n.locale + '/services#main-view'"
                         v-scroll-to="{el: '#main-view', offset: -10}"
                     >
                         {{ $t('services') }}
@@ -56,7 +56,7 @@
                 <b-col sm="auto">
                     <b-link
                         class="header-link"
-                        to="/blog#main-view"
+                        :to="'/' + $i18n.locale + '/blog#main-view'"
                         v-scroll-to="{el: '#main-view', offset: -10}"
                     >
                         {{ $t('blog') }}
@@ -65,7 +65,7 @@
                 <b-col sm="auto">
                     <b-link
                         class="header-link"
-                        to="/contact#main-view"
+                        :to="'/' + $i18n.locale + '/contact#main-view'"
                         v-scroll-to="{el: '#main-view', offset: -10}"
                     >
                         {{ $t('contact') }}
