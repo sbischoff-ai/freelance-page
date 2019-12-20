@@ -18,7 +18,7 @@
 <template>
     <div id="navbar">
         <b-navbar toggleable="lg" type="dark" variant="dark">
-            <b-navbar-brand :to="'/' + $i18n.locale + '/'" v-scroll-to="'#app'">
+            <b-navbar-brand :to="'/' + $i18n.locale + '/aboutme'" v-scroll-to="'#app'">
                 <img src="../assets/logo_dark.png" height="27" alt="Logo">
             </b-navbar-brand>
             <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>

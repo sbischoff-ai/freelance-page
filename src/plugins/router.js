@@ -9,11 +9,6 @@ export default new Router({
     routes: [
         {
             path: '/',
-            redirect: () => '/' + i18n.locale + '/',
-            children: []
-        },
-        {
-            path: '/:lang/',
             redirect: () => '/' + i18n.locale + '/aboutme',
             children: []
         },
