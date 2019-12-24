@@ -13,7 +13,7 @@
     {
         "title": "openVALIDATION",
         "position": "Full Stack Developer",
-        "description": "I am one of the core developers of the open source project openVALIDATION (<a href=\"https://https://docs.openvalidation.io\" target=\"_blank\" ref=\"noopener noreferrer\" class=\"link\">docs.openvalidation.io</a>) created at <a href=\"https://www.brockhaus-ag.de\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"link\">BROCKHAUS AG</a>. It is a software for translating validation rules from natural language into executable Java, C#, JavaScript, or Python source code. <i>BiPRO</i>, a standardization association of the German insurance industry, is expected to include openVALIDATION in the upcoming interface standard \"RNext\".",
+        "description": "I am one of the core developers of the open source project openVALIDATION (<a href=\"https://https://openvalidation.io\" target=\"_blank\" ref=\"noopener noreferrer\" class=\"link\">openvalidation.io</a>) created at <a href=\"https://www.brockhaus-ag.de\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"link\">BROCKHAUS AG</a>. It is a software for translating validation rules from natural language into executable Java, C#, JavaScript, or Python source code. <i>BiPRO</i>, a standardization association of the German insurance industry, is expected to include openVALIDATION in the upcoming interface standard \"RNext\".",
         "tasks": [
             "Strategic and technological participation the project",
             "Development of the Python code generator",
@@ -34,13 +34,14 @@
         "keywords": ["Python", "TensorFlow", "Cuda", "Convolutional Neural Networks", "SpaCy", "Computational Linguistics", "REST", "Microservices", "Document Classification", "Semantic Parsing", "Azure Cloud", "Docker"]
     },
     {
-        "title": "Data-driven MVP test and backend development for Wifi@DB",
+        "title": "Data & Analytics in an in-house digital startup",
         "position": "Data Scientist, Backend Developer",
-        "description": "As part of a digitization project of Deutsche Bahn, I developed modern mobile app solutions in the areas of mobility and entertainment as a member of a highly agile development team in lean startup format.",
+        "description": "As part of a digitization project of a German transport company, I developed modern mobile app and API solutions in the areas of mobility and entertainment as a member of a highly agile development team in lean startup format.",
         "tasks": [
             "Conceptualization and development of AI-based, personalized and contextualized content curation",
             "Statistical data analysis for data-driven MVP tests of an iOS app",
             "Support in planning, development and administration of the data analytics infrastructure",
+            "Member of the architecture board for a new API platform of the group based on GraphQL",
             "General support in the backend and DevOps area"
         ],
         "keywords": ["Transportation", "Google Cloud", "Kubernetes", "Google BigQuery", " Google DataStudio", "Google Datalab", "Firebase", "Node.js", "React Native", "iOS", "Mobile App Tracking", "A/B Testing", "Python", "Advanced Analytics", "Microservices", "Domain-driven Design", "GraphQL", "Lean Startup"]

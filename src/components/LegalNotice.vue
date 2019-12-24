@@ -13,7 +13,7 @@ export default {
         }
     },
     mounted() {
-        client.getLegalNotice(this.$root.$i18n.locale).then(html => {
+        client.getResource('legalNotice', this.$root.$i18n.locale, 'html').then(html => {
             this.legalnoticeHtml = html;
         });
     }

@@ -1,0 +1,17 @@
+[
+    {
+        "degree": "M. Sc. Physik",
+        "institution": "Universität Duisburg-Essen",
+        "description": "2017<br>Quantenfeldtheorie, Allgemeine Relativitätstheorie, Chaos und nichtlineare Dynamik, Computersimulation, Ergänzungsbereich: Theoretische Informatik"
+    },
+    {
+        "degree": "Zertifizierter Data Scientist Basic Level",
+        "institution": "Fraunhofer Institut",
+        "description": "2018<br>Big-Data-Systeme, Datenmanagement, Datenanalyse, Analyse und Visualisierung von Big Data, Datenschutz und Datensicherheit, Geschäftsperspektiven"
+    },
+    {
+        "degree": "Fachinformatiker - Anwendungsentwicklung",
+        "institution": "IHK Essen",
+        "description": "2008<br>Ausbildungsbetrieb: Essener Systemhaus, IT der Stadt Essen"
+    }
+]

@@ -13,7 +13,7 @@
     {
         "title": "openVALIDATION",
         "position": "Full-Stack-Entwickler",
-        "description": "Ich bin einer der Kernentwickler des in der <a href=\"https://www.brockhaus-ag.de\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"link\">BROCKHAUS AG</a> entstandenen Open-Source-Projektes openVALIDATION (<a href=\"https://docs.openvalidation.io\" target=\"_blank\" ref=\"noopener noreferrer\" class=\"link\">docs.openvalidation.io</a>). Dabei handelt es sich um eine Software zur zur Übersetzung von Validierungsregeln aus natürlicher Sprache in lauffähigen Java-, C#-, JavaScript, oder Python-Quellcode. <i>BiPRO</i>, ein Standardisierungsverband der deutschen Versicherungsbranche, wird openVALIDATION voraussichtlich in den kommenden Schnittstellenstandard \"RNext\" aufnehmen.",
+        "description": "Ich bin einer der Kernentwickler des in der <a href=\"https://www.brockhaus-ag.de\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"link\">BROCKHAUS AG</a> entstandenen Open-Source-Projektes openVALIDATION (<a href=\"https://openvalidation.io\" target=\"_blank\" ref=\"noopener noreferrer\" class=\"link\">openvalidation.io</a>). Dabei handelt es sich um eine Software zur Übersetzung von Validierungsregeln aus natürlicher Sprache in lauffähigen Java-, C#-, JavaScript, oder Python-Quellcode. <i>BiPRO</i>, ein Standardisierungsverband der deutschen Versicherungsbranche, wird openVALIDATION voraussichtlich in den kommenden Schnittstellenstandard \"RNext\" aufnehmen.",
         "tasks": [
             "Strategische und technologische Mitgestaltung des Projekts",
             "Entwicklung des Python-Code-Generators",
@@ -34,13 +34,14 @@
         "keywords": ["Python", "TensorFlow", "Cuda", "Konvolutionale Neuronale Netze", "SpaCy", "Computerlinguistik", "REST", "Microservices", "Dokumentenklassifizierung", "Semantic Parsing", "Azure Cloud", "Docker"]
     },
     {
-        "title": "Datengetriebener MVP-Test und Backend-Entwicklung für Wifi@DB",
+        "title": "Data & Analytics in konzerninternem Digital-Startup",
         "position": "Data Scientist, Backend-Entwickler",
-        "description": "Im Rahmen eines Digitalisierungsprojekts der Deutschen Bahn habe ich als Mitglied eines hochgradig agilen Entwicklungsteams im Lean-Startup-Format moderne Mobile-App-Lösungen in den Bereichen Mobility und Entertainment erarbeitet.",
+        "description": "Im Rahmen eines Digitalisierungsprojekts eines deutschen Verkehrskonzerns habe ich als Mitglied eines hochgradig agilen Entwicklungsteams im Lean-Startup-Format moderne Mobile-App- und API-Lösungen in den Bereichen Mobility und Entertainment erarbeitet.",
         "tasks": [
             "Konzeptionalisierung und Entwicklung KI-basierter personalisierter und kontextualisierter Content-Kuratierung",
             "Statistische Datenanalysen für datengetriebene MVP-Tests einer iOS App",
             "Unterstützung bei Planung, Entwicklung und Administration der Data-Analytics-Infrastruktur",
+            "Mitglied des Architektur-Boards für eine neue API-Plattform des Konzerns auf Basis von GraphQL",
             "Allgemeine Unterstützung im Backend- und DevOps-Bereich"
         ],
         "keywords": ["Transport", "Google Cloud", "Kubernetes", "Google BigQuery", " Google DataStudio", "Google Datalab", "Firebase", "Node.js", "React Native", "iOS", "Mobile App Tracking", "A/B Testing", "Python", "Advanced Analytics", "Microservices", "Domain-driven Design", "GraphQL", "Lean Startup"]

@@ -13,7 +13,7 @@ export default {
         }
     },
     mounted() {
-        client.getDataPrivacyStatement(this.$root.$i18n.locale).then(html => {
+        client.getResource('dataPrivacyStatement', this.$root.$i18n.locale, 'html').then(html => {
             this.dataPrivacyStatement = html;
         });
     }

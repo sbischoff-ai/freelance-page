@@ -34,25 +34,13 @@ def get_file_content(name, locale, extension):
         file_content = f.read()
     return file_content
 
-@app.route("/dataPrivacyStatement/<locale>", methods=["GET"])
+@app.route("/resource/<name>/<locale>/<file_type>", methods=["GET"])
 @endpoint.api()
-def get_data_privacy_statement(locale):
-    return get_file_content("dataprivacystatement", locale, "html")
-
-@app.route("/legalNotice/<locale>", methods=["GET"])
-@endpoint.api()
-def get_legal_notice(locale):
-    return get_file_content("legalnotice", locale, "html")
-
-@app.route("/profile/<locale>", methods=["GET"])
-@endpoint.api()
-def get_profile(locale):
-    return json.loads(get_file_content("profile", locale, "json"))
-
-@app.route("/projects/<locale>", methods=["GET"])
-@endpoint.api()
-def get_projects(locale):
-    return json.loads(get_file_content("projects", locale, "json"))
+def get_resource(name: str, locale: str, file_type: str = 'json'):
+    content = get_file_content(name.lower(), locale.lower(), file_type)
+    if (file_type == 'json'):
+        return json.loads(content)
+    return content
 
 @app.route("/submitContactForm", methods=["POST"])
 @endpoint.api(

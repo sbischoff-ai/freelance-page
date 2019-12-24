@@ -1,6 +1,6 @@
 <template>
     <div :class="position === 'right' ? 'content-title position-right' : 'content-title position-left'">
-        <h3><font-awesome-icon
+        <h1 style="font-size: xx-large;"><font-awesome-icon
             v-if="position === 'left' || !position" 
             :icon="icon" 
             class="content-title-icon"
@@ -8,7 +8,7 @@
             v-if="position === 'right'" 
             :icon="icon" 
             class="content-title-icon"
-        /></h3>
+        /></h1>
     </div>
 </template>
 
@@ -26,9 +26,8 @@ export default {
 @import '../theme.scss';
 
 .content-title {
-    font-size: xx-large;
-    margin-bottom: 1em;
-    margin-top: 1em;
+    margin-bottom: 2em;
+    margin-top: 2em;
 }
 
 .position-left {

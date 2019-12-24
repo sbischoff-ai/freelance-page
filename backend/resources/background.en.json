@@ -1,0 +1,17 @@
+[
+    {
+        "degree": "M. Sc. Physics",
+        "institution": "University Duisburg-Essen",
+        "description": "2017<br>Quantum Field Theory, General Theory of Relativity, Chaos and nonlinear Dynamics, Computer Simulations, supplementary: Theoretical Computer Science"
+    },
+    {
+        "degree": "Certified Data Scientist Basic Level",
+        "institution": "Fraunhofer Institute",
+        "description": "2018<br>Big Data Systems, Data Management, Data Analysis, Analysis and Visualization of Big Data, Data Privacy and Data Security, Business Perspectives"
+    },
+    {
+        "degree": "Qualified IT Specialist - Application Development",
+        "institution": "Chamber of Industry and Commerce (\"IHK\") Essen",
+        "description": "2008<br>Training Company: Essener Systemhaus (IT of the Essen city administration)"
+    }
+]
