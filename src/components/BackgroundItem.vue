@@ -27,6 +27,7 @@ export default {
     .tooltip-inner{
         width: 25em;
         max-width: 90vw;
+        z-index: 1;
     }
 }
 </style>
