@@ -25,7 +25,7 @@ export default {
 <style lang="scss">
 .background-tooltip {
     .tooltip-inner{
-        width: 30em;
+        width: 25em;
         max-width: 90vw;
     }
 }
