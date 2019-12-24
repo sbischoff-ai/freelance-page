@@ -26,7 +26,7 @@ export default {
 .background-tooltip {
     .tooltip-inner{
         width: 30em;
-        max-width: 30em;
+        max-width: 90vw;
     }
 }
 </style>
