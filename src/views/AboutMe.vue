@@ -2,7 +2,7 @@
 {
     "en": {
         "person": "Person",
-        "personalinfo": "Hello, my name is Silas Bischoff. I'm a freelance software developer and data scientist from the Düsseldorf area. The things I could do for you include, for example:<br><br><ul><li>A professional analysis of your business segments or customer base</li> <li>The complete development of a data-driven application from conception to integration</li> <li>Or simply full stack support as a member of your development team.</li></ul>",
+        "personalinfo": "Hello, my name is Silas Bischoff. I'm a freelance software developer and data scientist from the Düsseldorf area. The things I could do for you include, for example:<br><br><ul><li>A professional analysis of your business segments or customer base</li> <li>The development and implementation of an AI use case for your company based on the latest machine learning approaches</li> <li>The complete development of a data-driven application from conception to integration</li> <li>Or simply full stack support as a member of your development team.</li></ul>",
         "personalinfo2": "My goal is to develop sustainable technological innovations that noticeably improve people's lives and work. With this sense of purpose and responsibility, I also dedicate myself to the requirements of my customers. If you are interested, you can reach me via my <a href='/en/contact#main-view' class='link'>contact form</a> or on <a href='https://www.xing.com/profile/Silas_Bischoff' target='_blank' rel='noopener noreferrer' class='link'>Xing</a> and <a href='https://www.linkedin.com/in/sbischoff' target='_blank' rel='noopener noreferrer' class='link'>LinkedIn</a>. Are you a developer? Then have a look at my open source projects on <a href='https://github.com/sbischoff-ai' target='_blank' rel='noopener noreferrer' class='link'>GitHub</a>.",
         "background": "Background",
         "backgroundtext": "In addition to computer science, my academic roots are primarily in the natural sciences. As a theoretical physicist, I learned to apply the scientific method by using mathematical models and computer simulations to derive regularities from observations of our world and make them usable. In my professional career as a data scientist in an IT consulting company, I took exactly this knowledge with me. I combined it with my over 15 years of programming experience in numerous languages, applying it to everyday and business problems and adding value.",
@@ -12,11 +12,22 @@
         "frameworks": "Frameworks",
         "methods": "Methods",
         "projects": "Projects",
-        "bagreferenceintro": "Here is an excerpt from the projects that I worked on for various customers as a permanent employee of the IT consulting company <a href='https://www.brockhaus-ag.de' target='_blank' rel='noopener noreferrer' class='link'>BROCKHAUS AG</a>:"
+        "bagreferenceintro": "Here is an excerpt from the projects that I worked on for various customers as a permanent employee of the IT consulting company <a href='https://www.brockhaus-ag.de' target='_blank' rel='noopener noreferrer' class='link'>BROCKHAUS AG</a>:",
+        "creed": "Creed",
+        "leanagile": "Lean & Agile",
+        "sustainable": "Sustainable",
+        "valueadded": "Creating Value",
+        "opencollab": "Open Collaboration",
+        "cuttingedge": "Cutting Edge",
+        "leanagilecontent": "Technologies and requirements are changing faster than ever. Processes and organizational structures must respond to this with leanness and flexibility, and work results must be testable and validatable as early as possible. As an <i>agile-native</i> developer, I've worked solely according to concepts such as Scrum, Kanban or Lean Startup since the beginning of my career. However, agile methods are neither an end in themselves nor a dogma. They are tools for minimizing complexity and speeding up feedback loops, which I have learned how to combine correctly depending on the problems and circumstances of a project.",
+        "sustainablecontent": "Resources are limited and precious. This applies to your money and your time, the time of your employees and also the raw materials that we use to build computers and the energy with which we operate them. Digital innovation has the potential to make people's lives and work so productive, so comfortable and at the same time so much more <i>sustainable</i> than ever before. But if digitization becomes an end in itself, it can also turn into the opposite. In my work, responsible use of your and all of our resources is therefore always a top priority.",
+        "valueaddedcontent": "",
+        "opencollabcontent": "",
+        "cuttingedgecontent": ""
     },
     "de": {
         "person": "Person",
-        "personalinfo": "Hallo, mein Name ist Silas Bischoff. Ich bin ein freiberuflicher Softwareentwickler und Data Scientist aus dem Großraum Düsseldorf. Die Dinge, die ich für Sie tun könnte, beinhalten beispielsweise:<br><br><ul><li>Eine professionelle Analyse Ihrer Geschäftsfelder oder Ihres Kundenstammes</li> <li>Die vollständige Entwicklung einer datengetriebenen Anwendung von Konzeption bis Integration</li> <li>Oder einfach Full-Stack-Unterstützung als Mitglied Ihres Entwicklungsteams.</li></ul>",
+        "personalinfo": "Hallo, mein Name ist Silas Bischoff. Ich bin ein freiberuflicher Softwareentwickler und Data Scientist aus dem Großraum Düsseldorf. Die Dinge, die ich für Sie tun könnte, beinhalten beispielsweise:<br><br><ul><li>Eine professionelle Analyse Ihrer Geschäftsfelder oder Ihres Kundenstammes</li> <li>Die Erarbeitung und Umsetzung eines KI-Use-Cases für Ihr Unternehmen auf Basis modernster Ansätze des maschinellen Lernens</li> <li>Die vollständige Entwicklung einer datengetriebenen Anwendung von Konzeption bis Integration</li> <li>Oder einfach Full-Stack-Unterstützung als Mitglied Ihres Entwicklungsteams.</li></ul>",
         "personalinfo2": "Mein Ziel ist es, nachhaltige technologische Innovationen zu entwickeln, die Leben und Arbeit von Menschen spürbar verbessern. Mit diesem Ziel- und Verantwortungsbewusstsein widme ich mich auch den Anforderungen meiner Kunden. Bei Interesse erreichen Sie mich über mein <a href='/de/contact#main-view' class='link'>Kontaktformular</a> oder auf <a href='https://www.xing.com/profile/Silas_Bischoff' target='_blank' rel='noopener noreferrer' class='link'>Xing</a> und <a href='https://www.linkedin.com/in/sbischoff' target='_blank' rel='noopener noreferrer' class='link'>LinkedIn</a>. Sind Sie EntwicklerIn? Dann werfen Sie doch ein Auge auf meine Open Source Projekte auf <a href='https://github.com/sbischoff-ai' target='_blank' rel='noopener noreferrer' class='link'>GitHub</a>.",
         "background": "Hintergrund",
         "backgroundtext": "Neben der Informatik liegen meine akademischen Wurzeln vor allem in der Naturwissenschaft. Als theoretischer Physiker habe ich gelernt, die wissenschaftliche Methode anzuwenden, indem ich mit mathematischen Modellen und Computersimulationen Regelmäßigkeiten aus Beobachungen unserer Welt ableite und nutzbar mache. In meinen beruflichen Werdegang als Data Scientist in einem IT-Consulting-Unternehmen habe ich genau dieses Wissen mitgenommen, um es mit meinen über 15 Jahren Programmiererfahrung in zahlreichen Sprachen zu kombinieren und wertschöpfend auf Alltags- und Geschäftsprobleme anzuwenden.",
@@ -26,7 +37,18 @@
         "frameworks": "Frameworks",
         "methods": "Methoden",
         "projects": "Projekte",
-        "bagreferenceintro": "Hier finden Sie einen Auszug aus den Projekten, die ich als festangestellter Consultant der <a href='https://www.brockhaus-ag.de' target='_blank' rel='noopener noreferrer' class='link'>BROCKHAUS AG</a> für verschiedene Kunden bearbeitet habe:"
+        "bagreferenceintro": "Hier finden Sie einen Auszug aus den Projekten, die ich als festangestellter Consultant der <a href='https://www.brockhaus-ag.de' target='_blank' rel='noopener noreferrer' class='link'>BROCKHAUS AG</a> für verschiedene Kunden bearbeitet habe:",
+        "creed": "Kredo",
+        "leanagile": "Lean & Agile",
+        "sustainable": "Nachhaltigkeit",
+        "valueadded": "Wertschöpfung",
+        "opencollab": "Offene Zusammenarbeit",
+        "cuttingedge": "Cutting Edge",
+        "leanagilecontent": "Technologien und Anforderungen ändern sich schneller als je zuvor. Prozesse und Organisationsstrukturen müssen durch Schlankheit und Flexibilität darauf reagieren, Arbeitsergebnisse so früh wie möglich test- und validierbar sein. Als <i>agile-native</i> Entwickler habe ich seit Beginn meines Werdegangs ausschließlich nach Konzepten wie Scrum, Kanban oder Lean Startup gearbeitet. Agile Methoden dürfen aber nicht zum Dogma werden. Es sind Werkzeuge zur Minimierung von Komplexität und Beschleunigung von Feedback-Loops, die ich abhängig von den Problemen und Umständen eines Projekts richtig zu kombinieren weiß.",
+        "sustainablecontent": "Ressourcen sind begrenzt und kostbar. Das trifft auf Ihr Geld und Ihre Zeit zu, auf die Zeit Ihrer Mitarbeiter und ebenso auf die Rohstoffe, die wir verwenden um Computer zu bauen und die Energie mit der wir sie betreiben. Digitale Innovation hat das Potential, das Leben und Arbeiten der Menschen so produktiv, so bequem und gleichzeitig so <i>nachhaltig</i> zu machen, wie noch nie zuvor. Wird Digitalisierung zum Selbstzweck, kann sie aber ebenso ins Gegenteil umschlagen. In meiner Arbeit hat der verantwortungsvolle Umgang mit Ihren und unser aller Ressourcen daher stets höchste Priorität.",
+        "valueaddedcontent": "",
+        "opencollabcontent": "",
+        "cuttingedgecontent": ""
     }
 }
 </i18n>
@@ -85,6 +107,26 @@
                 <p v-html="$t('bagreferenceintro')"></p>
             </ContentParagraph>
             <ProjectReferenceList :projects="projects"/>
+        </ContentArea>
+        <ContentArea>
+            <ContentTitle icon="lightbulb">{{ $t('creed') }}</ContentTitle>
+            <ContentParagraph image="undraw_scrum_board.svg" imagePosition="left">
+                <b>{{ $t('leanagile') }}</b>
+                <p v-html="$t('leanagilecontent')"></p>
+            </ContentParagraph>
+            <ContentParagraph image="undraw_master_plan.svg" imagePosition="right" imageWideOnly>
+                <b>{{ $t('sustainable') }}</b>
+                <p v-html="$t('sustainablecontent')"></p>
+            </ContentParagraph>
+            <!--<ContentParagraph image="undraw_business_plan.svg" imagePosition="left">
+                <b>{{ $t('valueadded') }}</b><br>
+            </ContentParagraph>
+            <ContentParagraph image="undraw_open_source.svg" imagePosition="right">
+                <b>{{ $t('opencollab') }}</b><br>
+            </ContentParagraph>
+            <ContentParagraph image="undraw_unicorn.svg" imagePosition="left">
+                <b>{{ $t('cuttingedge') }}</b><br>
+            </ContentParagraph>-->
         </ContentArea>
     </div>
 </template>

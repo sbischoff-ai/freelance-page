@@ -12,7 +12,7 @@
 </i18n>
 
 <template>
-    <div class="mb-2">
+    <div class="mb-3">
         <div role="tab" class="p-1 mb-1">
             <b-link
                 v-b-toggle="projectKey"
