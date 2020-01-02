@@ -19,10 +19,10 @@
         "valueadded": "Creating Value",
         "opencollab": "Open Collaboration",
         "cuttingedge": "Cutting Edge",
-        "leanagilecontent": "Technologies and requirements are changing faster than ever. Processes and organizational structures must respond to this with leanness and flexibility, and work results must be testable and validatable as early as possible. As an <i>agile-native</i> developer, I've worked solely according to concepts such as Scrum, Kanban or Lean Startup since the beginning of my career. However, agile methods are neither an end in themselves nor a dogma. They are tools for minimizing complexity and speeding up feedback loops, which I have learned how to combine correctly depending on the problems and circumstances of a project.",
+        "leanagilecontent": "Technologies and requirements are changing faster than ever. Processes and organizational structures must respond to this with leanness and flexibility, and work results must be testable and validatable as early as possible. As an <i>agile-native</i> developer, I've worked solely according to concepts such as Scrum, Kanban or Lean Startup since the beginning of my career. However, agile methods must not become a dogma. They are tools for minimizing complexity and speeding up feedback loops, which I have learned how to combine correctly depending on the problems and circumstances of a project.",
         "sustainablecontent": "Resources are limited and precious. This applies to your money and your time, the time of your employees and also the raw materials that we use to build computers and the energy with which we operate them. Digital innovation has the potential to make people's lives and work so productive, so comfortable and at the same time so much more <i>sustainable</i> than ever before. But if digitization becomes an end in itself, it can also turn into the opposite. In my work, responsible use of your and all of our resources is therefore always a top priority.",
-        "valueaddedcontent": "",
-        "opencollabcontent": "",
+        "valueaddedcontent": "When working with data and new technologies, one can quickly fall into the trap of being distracted from what is important. Elaborate features are being developed because someone thought they sound cool, and of course you need a BI dashboard with as many buttons as possible and a precise forecast up to your companies daily coffee consumption, in order to not to be left behind. However, it is important to me that every hour of my work creates <i>real added value</i>. Every line of code is useful. Every data analysis answers a relevant question.",
+        "opencollabcontent": "I am a strong advocate of the open data and open source movement, both as a user and as a contributor. Free data sources make it possible to participate in the brave new world of data science even without the data pool of certain Californian tech corporations. The use of open source tools makes me and my customers manufacturer-independent and provides the security of a constant, public review.",
         "cuttingedgecontent": ""
     },
     "de": {
@@ -46,8 +46,8 @@
         "cuttingedge": "Cutting Edge",
         "leanagilecontent": "Technologien und Anforderungen ändern sich schneller als je zuvor. Prozesse und Organisationsstrukturen müssen durch Schlankheit und Flexibilität darauf reagieren, Arbeitsergebnisse so früh wie möglich test- und validierbar sein. Als <i>agile-native</i> Entwickler habe ich seit Beginn meines Werdegangs ausschließlich nach Konzepten wie Scrum, Kanban oder Lean Startup gearbeitet. Agile Methoden dürfen aber nicht zum Dogma werden. Es sind Werkzeuge zur Minimierung von Komplexität und Beschleunigung von Feedback-Loops, die ich abhängig von den Problemen und Umständen eines Projekts richtig zu kombinieren weiß.",
         "sustainablecontent": "Ressourcen sind begrenzt und kostbar. Das trifft auf Ihr Geld und Ihre Zeit zu, auf die Zeit Ihrer Mitarbeiter und ebenso auf die Rohstoffe, die wir verwenden um Computer zu bauen und die Energie mit der wir sie betreiben. Digitale Innovation hat das Potential, das Leben und Arbeiten der Menschen so produktiv, so bequem und gleichzeitig so <i>nachhaltig</i> zu machen, wie noch nie zuvor. Wird Digitalisierung zum Selbstzweck, kann sie aber ebenso ins Gegenteil umschlagen. In meiner Arbeit hat der verantwortungsvolle Umgang mit Ihren und unser aller Ressourcen daher stets höchste Priorität.",
-        "valueaddedcontent": "",
-        "opencollabcontent": "",
+        "valueaddedcontent": "In der Arbeit mit Daten und neuen Technologien kann man schnell in die Falle laufen, sich vom Wesentlichen ablenken zu lassen. Es werden aufwendige Features entwickelt, weil man die Idee so cool fand. Um nicht abgehängt zu werden, muss am besten ein BI-Dashboard mit möglichst vielen Knöpfen und genauer Vorhersage bis hin zum täglichen Kaffeeverbrauch her. Mir ist es allerdings wichtig, dass jede Stunde meiner Arbeit einen <i>tatsächlichen Mehrwert</i> schafft. Jede Zeile Code bringt einen Nutzen. Jede Datenanalyse beantwortet eine relevante Fragestellung.",
+        "opencollabcontent": "Ich bin ein starker Verfechter der Open-Data- und der Open-Source-Bewegung, sowohl als Anwender, als auch als Contributor. Freie Datenquellen machen es möglich, auch ohne den Datenfundus gewisser kalifornischer Großkonzerne, an der schönen neuen Welt der Data Science teilzuhaben. Der Einsatz von Open-Source-Werkzeugen macht mich und meine Kunden herstellerunabhängig und bringt die Sicherheit einer steten, öffentlichen Überprüfung.",
         "cuttingedgecontent": ""
     }
 }
@@ -118,14 +118,17 @@
                 <b>{{ $t('sustainable') }}</b>
                 <p v-html="$t('sustainablecontent')"></p>
             </ContentParagraph>
-            <!--<ContentParagraph image="undraw_business_plan.svg" imagePosition="left">
-                <b>{{ $t('valueadded') }}</b><br>
+            <ContentParagraph image="undraw_business_plan.svg" imagePosition="left">
+                <b>{{ $t('valueadded') }}</b>
+                <p v-html="$t('valueaddedcontent')"></p>
             </ContentParagraph>
-            <ContentParagraph image="undraw_open_source.svg" imagePosition="right">
-                <b>{{ $t('opencollab') }}</b><br>
+            <ContentParagraph image="undraw_open_source.svg" imagePosition="right" imageWideOnly>
+                <b>{{ $t('opencollab') }}</b>
+                <p v-html="$t('opencollabcontent')"></p>
             </ContentParagraph>
-            <ContentParagraph image="undraw_unicorn.svg" imagePosition="left">
-                <b>{{ $t('cuttingedge') }}</b><br>
+            <!--<ContentParagraph image="undraw_unicorn.svg" imagePosition="left">
+                <b>{{ $t('cuttingedge') }}</b>
+                <p v-html="$t('cuttingedgecontent')"></p>
             </ContentParagraph>-->
         </ContentArea>
     </div>
