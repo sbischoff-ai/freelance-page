@@ -8,10 +8,13 @@
 <script>
 import ServiceCatalog from '../components/ServiceCatalog';
 
+import tracksPageviews from '../mixins/tracksPageviews';
+
 const services = require('../data/services');
 
 export default {
     name: 'Services',
+    mixins: [tracksPageviews],
     components: {
         ServiceCatalog
     },

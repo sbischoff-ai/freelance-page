@@ -84,6 +84,11 @@ export default {
             const oldLocale = this.$i18n.locale;
             this.$root.$i18n.locale = locale;
             history.replaceState({}, document.title, location.href.replace(`/${oldLocale}/`, `/${locale}/`));
+            this.$gtag.pageview({
+                page_title: this.$route.name, 
+                page_path: this.$route.path.replace(`/${oldLocale}/`, `/${locale}/`),
+                page_location: location.href
+            });
             this.$root.$emit('localeChange', locale);
         }
     }

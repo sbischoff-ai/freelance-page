@@ -17,8 +17,11 @@
 </template>
 
 <script>
+import tracksPageviews from '../mixins/tracksPageviews';
+
 export default {
-    name: 'Blog'
+    name: 'Blog',
+    mixins: [tracksPageviews]
 };
 </script>
 

@@ -36,8 +36,11 @@ import ContentArea from '../components/ContentArea';
 import ContentTitle from '../components/ContentTitle';
 import ContentParagraph from '../components/ContentParagraph';
 
+import tracksPageviews from '../mixins/tracksPageviews';
+
 export default {
     name: 'Contact',
+    mixins: [tracksPageviews],
     components: {
         ContactForm,
         ContentArea,

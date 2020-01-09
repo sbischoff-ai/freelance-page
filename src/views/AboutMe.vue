@@ -142,10 +142,13 @@ import BackgroundItem from '../components/BackgroundItem';
 import SkillChart from '../components/SkillChart';
 import ProjectReferenceList from '../components/ProjectReferenceList';
 
+import tracksPageviews from '../mixins/tracksPageviews';
+
 import client from '../libs/client';
 
 export default {
     name: 'AboutMe',
+    mixins: [tracksPageviews],
     components: {
       ContentTitle,
       ContentArea,

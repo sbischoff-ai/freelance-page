@@ -5,6 +5,7 @@ import './plugins/bootstrap-vue';
 import './plugins/vue-scrollto';
 import './plugins/fontawesome';
 import './plugins/google-charts';
+import './plugins/vue-gtag';
 import App from './App.vue';
 
 Vue.config.productionTip = false;
