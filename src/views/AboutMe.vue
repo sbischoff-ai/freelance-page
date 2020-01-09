@@ -23,7 +23,7 @@
         "sustainablecontent": "Resources are limited and precious. This applies to your money and your time, the time of your employees and also the raw materials that we use to build computers and the energy with which we operate them. Digital innovation has the potential to make people's lives and work so productive, so comfortable and at the same time so much more <i>sustainable</i> than ever before. But if digitization becomes an end in itself, it can also turn into the opposite. In my work, responsible use of your and all of our resources is therefore always a top priority.",
         "valueaddedcontent": "When working with data and new technologies, one can quickly fall into the trap of being distracted from what is important. Elaborate features are being developed just because someone thought they sound cool, and suddenly you need a BI dashboard with as many buttons as possible and a precise forecast up to your companies daily coffee consumption, in order to not to be left behind. However, it is important to me that every hour of my work creates <i>real added value</i>. Every line of code is useful. Every data analysis answers a relevant question.",
         "opencollabcontent": "I am a strong advocate of the open data and open source movement, both as a user and as a contributor. Free data sources make it possible to participate in the brave new world of data science even without the data pool of certain Californian tech corporations. The use of open source tools makes me and my customers manufacturer-independent and provides the security of a constant, public review.",
-        "cuttingedgecontent": ""
+        "cuttingedgecontent": "When deciding on approaches and technologies, the choice is often limited by the existing know-how. I never choose a solution just because it's the <i>one</i> I know. I choose it because it is the <i>best</i> solution out of a variety of methods and tools known to me. If there is a more modern, more effective approach to a problem, I learn it before it becomes standard. I make no less demands of myself than not only to living the digital world of tomorrow in the here and now, but actively helping to shape it."
     },
     "de": {
         "person": "Person",
@@ -39,7 +39,7 @@
         "projects": "Projekte",
         "bagreferenceintro": "Hier finden Sie einen Auszug aus den Projekten, die ich als festangestellter Consultant der <a href='https://www.brockhaus-ag.de' target='_blank' rel='noopener noreferrer' class='link'>BROCKHAUS AG</a> für verschiedene Kunden bearbeitet habe:",
         "creed": "Kredo",
-        "leanagile": "Lean & Agile",
+        "leanagile": "Lean & Agil",
         "sustainable": "Nachhaltigkeit",
         "valueadded": "Wertschöpfung",
         "opencollab": "Offene Zusammenarbeit",
@@ -48,7 +48,7 @@
         "sustainablecontent": "Ressourcen sind begrenzt und kostbar. Das trifft auf Ihr Geld und Ihre Zeit zu, auf die Zeit Ihrer Mitarbeiter und ebenso auf die Rohstoffe, die wir verwenden um Computer zu bauen und die Energie mit der wir sie betreiben. Digitale Innovation hat das Potential, das Leben und Arbeiten der Menschen so produktiv, so bequem und gleichzeitig so <i>nachhaltig</i> zu machen, wie noch nie zuvor. Wird Digitalisierung zum Selbstzweck, kann sie aber ebenso ins Gegenteil umschlagen. In meiner Arbeit hat der verantwortungsvolle Umgang mit Ihren und unser aller Ressourcen daher stets höchste Priorität.",
         "valueaddedcontent": "In der Arbeit mit Daten und neuen Technologien kann man schnell in die Falle laufen, sich vom Wesentlichen ablenken zu lassen. Es werden aufwendige Features entwickelt, nur weil man halt die Idee so cool fand. Um nicht abgehängt zu werden, muss plötzlich ein BI-Dashboard mit möglichst vielen Knöpfen und genauer Vorhersage bis hin zum täglichen Kaffeeverbrauch her. Mir ist es allerdings wichtig, dass jede Stunde meiner Arbeit einen <i>tatsächlichen Mehrwert</i> schafft. Jede Zeile Code bringt einen Nutzen. Jede Datenanalyse beantwortet eine relevante Fragestellung.",
         "opencollabcontent": "Ich bin ein starker Verfechter der Open-Data- und der Open-Source-Bewegung, sowohl als Anwender, als auch als Contributor. Freie Datenquellen machen es möglich, auch ohne den Datenfundus gewisser kalifornischer Großkonzerne, an der schönen neuen Welt der Data Science teilzuhaben. Der Einsatz von Open-Source-Werkzeugen macht mich und meine Kunden herstellerunabhängig und bringt die Sicherheit einer steten, öffentlichen Überprüfung.",
-        "cuttingedgecontent": ""
+        "cuttingedgecontent": "In der Entscheidung für Herangehensweisen und Technologien ist die Auswahl häufig durch das vorhandene Know-How beschränkt. Ich wähle eine Lösung niemals, nur weil es die <i>eine</i> ist, die ich kenne. Ich wähle sie, weil es die <i>beste</i> Lösung aus einer Vielfalt mir bekannter Methoden und Werkzeuge ist. Gibt es für ein Problem einen moderneren, effektiveren Ansatz, dann erlerne ich ihn, noch bevor er zum Standard wird. Ich stelle an mich keinen geringeren Anspruch, als die digitale Welt von morgen nicht nur im Hier und Jetzt zu leben, sondern sie aktiv mitzugestalten."
     }
 }
 </i18n>
@@ -114,22 +114,22 @@
                 <b>{{ $t('leanagile') }}</b>
                 <p v-html="$t('leanagilecontent')"></p>
             </ContentParagraph>
-            <ContentParagraph image="undraw_master_plan.svg" imagePosition="right" imageWideOnly>
+            <ContentParagraph image="undraw_unicorn.svg" imagePosition="right" imageWideOnly>
+                <b>{{ $t('cuttingedge') }}</b>
+                <p v-html="$t('cuttingedgecontent')"></p>
+            </ContentParagraph>
+            <ContentParagraph image="undraw_master_plan.svg" imagePosition="left">
                 <b>{{ $t('sustainable') }}</b>
                 <p v-html="$t('sustainablecontent')"></p>
             </ContentParagraph>
-            <ContentParagraph image="undraw_business_plan.svg" imagePosition="left">
+            <ContentParagraph image="undraw_business_plan.svg" imagePosition="right">
                 <b>{{ $t('valueadded') }}</b>
                 <p v-html="$t('valueaddedcontent')"></p>
             </ContentParagraph>
-            <ContentParagraph image="undraw_open_source.svg" imagePosition="right" imageWideOnly>
+            <ContentParagraph image="undraw_open_source.svg" imagePosition="left" imageWideOnly>
                 <b>{{ $t('opencollab') }}</b>
                 <p v-html="$t('opencollabcontent')"></p>
             </ContentParagraph>
-            <!--<ContentParagraph image="undraw_unicorn.svg" imagePosition="left">
-                <b>{{ $t('cuttingedge') }}</b>
-                <p v-html="$t('cuttingedgecontent')"></p>
-            </ContentParagraph>-->
         </ContentArea>
     </div>
 </template>
