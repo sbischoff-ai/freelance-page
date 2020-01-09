@@ -13,4 +13,4 @@ Vue.use(VueScrollTo, {
     onCancel: false,
     x: false,
     y: true
-})
+});
