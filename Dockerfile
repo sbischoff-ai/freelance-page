@@ -1,4 +1,5 @@
 FROM node:latest as build-stage
+RUN apt-get update && apt-get install -y g++ make python
 WORKDIR /app
 COPY package*.json ./
 RUN npm install
