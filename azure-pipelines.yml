@@ -7,24 +7,24 @@ pool:
 steps:
 - script: |
     az login --service-principal -u $(AZURE_USERNAME) -p $(AZURE_SECRET) --tenant $(AZURE_TENANT)
-    az acr login --name freelancecontainer
+    az acr login --name sbischoff
   displayName: login to azure and container registry
 
 - script: |
     cd backend
     docker build \
-    -t freelancecontainer.azurecr.io/freelance-page-backend:test \
+    -t sbischoff.azurecr.io/freelance-page-backend:test \
     --build-arg MAILJET_USERNAME=$(MAILJET_USERNAME) \
     --build-arg MAILJET_SECRET=$(MAILJET_SECRET) .
-    docker push freelancecontainer.azurecr.io/freelance-page-backend:test
+    docker push sbischoff.azurecr.io/freelance-page-backend:test
     cd ..
   displayName: 'backend: build and push docker container'
 
 # service ist automatically redeployed via webhook
 
 - script: |
-    docker build -t freelancecontainer.azurecr.io/freelance-page:test .
-    docker push freelancecontainer.azurecr.io/freelance-page:test
+    docker build -t sbischoff.azurecr.io/freelance-page:test .
+    docker push sbischoff.azurecr.io/freelance-page:test
   displayName: 'frontend: build and push docker container'
 
 # page is redeployed automatically via webhook
