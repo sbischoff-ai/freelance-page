@@ -1,5 +1,20 @@
 [
     {
+        "title": "Full-Stack-Verantwortung für Innovationsprojekte von ALDI Süd",
+        "position": "Technology Generalist",
+        "description": "Als Mitglied des kleinen aber schlagkräftigen Teams <i>Digital Business Development & Strategy</i> habe ich fachlich und technologisch breit gefächerte Verantwortung für Cloud-Infrastruktur, Architektur und Entwicklung inhouse-entwickelter Software-Prototypen, Datenanalysen sowie die Gestaltung und Optimierung technischer und geschäftlicher Prozesse übernommen. <i>Da die inhaltlichen Details der durchgeführten Projekte hochgradig wettbewerbsrelevant sind, darf ich sie momentan noch nicht preisgeben.</i>",
+        "tasks": [
+            "Gestaltung und Umsetzung einer projektübergreifenden serverlosen Architektur auf Basis von AWS",
+            "Planung und Auswertung datengetriebener Hypothesentests",
+            "Durchführung tiefer Datenanalysen",
+            "Entwicklung und Betrieb verschiedener Apps, APIs und Machine-Learning-Use-Cases",
+            "Planung und Entwicklung der Integration von Systemen unserer Partnerunternehmen sowie Legacy-Systemen des Konzerns",
+            "DevOps - Hauptverantwortung für CI/CD und Cloud-Infrastruktur",
+            "Inhaltliche Mitgestaltung digitaler Innovationen verschiedener Bereiche des Lebensmitteleinzelhandels und der Logistik"
+        ],
+        "keywords": ["Einzelhandel", "Logistik", "Python", "Node.js", "Grafana", "AWS", "DevOps", "Docker", "GitLab", "Spryker", "Serverless Stack", "MVP-Testing", "Advanced Analytics", "Hadoop", "Spark", "Lean Startup"]
+    },
+    {
         "title": "Entwicklung einer Online-Antragsstrecke für ein Versicherungsunternehmen",
         "position": "Full-Stack-Entwickler",
         "description": "Zusammen mit einem weiteren Entwickler habe ich innerhalb von drei Wochen einen kompletten Onlineabschluss für ein neues Versicherungsprodukt implementiert.",

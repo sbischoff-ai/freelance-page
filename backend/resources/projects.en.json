@@ -1,5 +1,20 @@
 [
     {
+        "title": "Full Stack Responsibility for innovation project of ALDI South",
+        "position": "Technology Generalist",
+        "description": "As a member of the small but powerful <i>Digital Business Development & Strategy</i> team, I have taken on professionally and technologically broad responsibilities for cloud infrastructure, architecture and development of in-house-developed software prototypes, data analysis, and the design and optimization of technical and business processes. <i>As the content details of the projects carried out are highly competitive, I am not allowed to disclose them at the moment</i>.",
+        "tasks": [
+            "Design and implementation of a cross-project serverless architecture based on AWS",
+            "Planning and evaluation data-driven of hypothesis tests",
+            "Performing deep data analytics",
+            "Development and operation of various apps, APIs and machine learning use cases",
+            "Planning and developing integrations of our partner companies' systems as well as legacy systems of the Group",
+            "DevOps - main responsibility for CI/CD and cloud infrastructure",
+            "Content co-creation of digital innovations of different areas of food retail and logistics"
+        ],
+        "keywords": ["Retail", "Logistik", "Python", "Node.js", "Grafana", "AWS", "DevOps", "Docker", "GitLab", "Spryker", "Serverless Stack", "MVP-Testing", "Advanced Analytics", "Hadoop", "Spark", "Lean Startup"]
+    },
+    {
         "title": "Development of an online insurance application",
         "position": "Full Stack Developer",
         "description": "Together with another developer, I implemented a complete online contract for a new product of a german insurance company within three weeks.",
