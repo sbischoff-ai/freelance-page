@@ -35,7 +35,7 @@
             "Entwicklung von Features und Integrationstests",
             "Aufsetzen von CI/CD-Pipelines, Automatisierung von Maven-Releases und GitHub-Administration"
         ],
-        "keywords": ["No-Code", "Java", "ANTLR", "Maven", "Python", "Codegenerierung", "Compilerentwicklnug", "Testautomatisierung", "OpenAPI", "DevOps", "GitHub", "Open Source"]
+        "keywords": ["No-Code", "Java", "ANTLR", "Maven", "Python", "Codegenerierung", "Compilerentwicklung", "Testautomatisierung", "OpenAPI", "DevOps", "GitHub", "Open Source"]
     },
     {
         "title": "PoC für KI-basierte Dokumentenverarbeitung im Medizinischen Underwriting",
