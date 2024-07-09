@@ -29,7 +29,7 @@
                 </b-col>
                 <b-col cols="auto">
                     <b-row align-h="end" align-v="center">
-                        <b-col><small style="white-space: nowrap;">© 2019-2021 Silas Bischoff</small></b-col>
+                        <b-col><small style="white-space: nowrap;">© 2019-2024 Silas Bischoff</small></b-col>
                         <b-col>
                             <b-link href="https://github.com/sbischoff-ai" target="_blank" rel="noopener noreferrer">
                                 <font-awesome-icon :icon="['fab', 'github']" class="footer-link" size="lg"/>
