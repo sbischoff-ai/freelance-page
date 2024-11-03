@@ -59,7 +59,7 @@
         ["Data Mining", 4],
         ["ETL", 4],
         ["Computersimulation", 4],
-        ["Serverless Architecture", 4],
+        ["Serverless", 4],
         ["Microservices", 4],
         ["CI/CD", 4],
         ["DevSecOps", 3],
@@ -70,6 +70,6 @@
         ["SOA", 3],
         ["Game Development", 3],
         ["Domain-driven Design", 2],
-        ["Blockchain Development", 1]
+        ["Blockchain", 1]
     ]
 }
