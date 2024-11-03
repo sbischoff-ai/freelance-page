@@ -40,9 +40,6 @@
                             <b-link href="https://www.linkedin.com/in/sbischoff" target="_blank" rel="noopener noreferrer">
                                 <font-awesome-icon :icon="['fab', 'linkedin']" class="footer-link" size="lg"/>
                             </b-link>
-                            <b-link href="https://twitter.com/LeCoalfish" target="_blank" rel="noopener noreferrer">
-                                <font-awesome-icon :icon="['fab', 'twitter']" class="footer-link" size="lg"/>
-                            </b-link>
                         </b-col>
                     </b-row>
                 </b-col>

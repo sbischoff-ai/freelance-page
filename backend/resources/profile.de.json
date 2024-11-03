@@ -2,28 +2,35 @@
     "languages": [
         ["Python", 4],
         ["JavaScript", 4],
-        ["Java", 3],
-        ["C#", 3],
-        ["C/C++", 3],
+        ["Java", 4],
+        ["C#", 4],
+        ["C/C++", 4],
+        ["PHP", 3],
         ["SQL", 3],
         ["GraphQL", 3],
         ["HTML/CSS", 2],
+        ["Rust", 2],
         ["R", 2],
+        ["Solidity", 1],
         ["Scala", 1],
         ["Haskell", 1],
-        ["Rust", 1]
+        ["Go", 1]
     ],
     "frameworks": [
         ["keras/tensorflow", 4],
         ["spaCy", 4],
         ["sklearn", 4],
         ["Flask", 4],
+        ["FastAPI", 4],
+        ["Express.js", 4],
         ["Vue.js", 3],
         ["Angular", 3],
         ["React.js", 3],
         [".NET", 2],
+        ["Laravel/Symfony", 2],
         ["Dropwizard", 2],
-        ["Spring", 1]
+        ["Spring", 1],
+        ["Web3.js", 1]
     ],
     "technologies": [
         ["Docker", 4],
@@ -32,26 +39,37 @@
         ["AWS Cloud", 4],
         ["Azure Cloud", 4],
         ["Google Cloud Platform", 3],
+        ["Spryker", 3],
         ["MongoDB", 3],
         ["PostgreSQL", 3],
+        ["Redis", 3],
+        ["RabbitMQ", 3],
         ["Hadoop", 2],
         ["Maven", 2],
         ["Jenkins", 2],
-        ["Firebase", 1]
+        ["Unity", 2],
+        ["UE5", 2],
+        ["ElasticSearch", 1],
+        ["Firebase", 1],
+        ["Truffle", 1]
     ],
     "methods": [
-        ["Deep Learning", 4],
+        ["Deep Learning/AI", 4],
         ["Text Mining", 4],
         ["Data Mining", 4],
         ["ETL", 4],
         ["Computersimulation", 4],
         ["Serverless Architecture", 4],
+        ["Microservices", 4],
         ["CI/CD", 4],
+        ["DevSecOps", 3],
         ["Testautomatisierung", 3],
         ["Rapid Prototyping & MVP-Tests", 3],
         ["Lean Startup", 3],
         ["Agile", 3],
-        ["SOA", 2],
-        ["Domain-driven Design", 2]
+        ["SOA", 3],
+        ["Game Development", 3],
+        ["Domain-driven Design", 2],
+        ["Blockchain Development", 1]
     ]
 }

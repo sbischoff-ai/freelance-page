@@ -1,8 +1,33 @@
 [
     {
-        "title": "Full-Stack-Verantwortung für Innovationsprojekte von ALDI Süd",
+        "title": "Backend-Development für ALDI SÜD Digital",
+        "position": "Senior Backend Developer",
+        "description": "Für die deutsche Abteilung, die für das E-Food-Projekt <i>Mein ALDI</i> verantwortlich ist, habe ich die Backend-Entwicklung für verschiedene interne Softwarelösungen durchgeführt.",
+        "tasks": [
+            "Anforderungsanalyse, technische Spezifikation und Implementierung des Backends für ein Sortimentsverwaltungstool",
+            "Implementierung einer Automatisierungslösung für die Bestandsüberwachung und Steuerung der Verfügbarkeit"
+        ],
+        "keywords": ["Assortment", "E-Food", "Python", "FastAPI", "OpenAPI", "Docker", "GitLab", "PostgreSQL", "Microservices"]
+    },
+    {
+        "title": "Technische Leitung in einem E-Food-Projekt für ALDI SOUTH International",
+        "position": "Tech Lead/Senior Solution Architect",
+        "description": "Ich war für die technische Leitung der Backend-Entwicklung in einem deutschen Schwesterprojekt der internationalen E-Food-/E-Commerce-Initiative von ALDI SÜD verantwortlich. Das Projekt ist inzwischen unter dem Namen <i>Mein ALDI</i> live gegangen.",
+        "tasks": [
+            "Spezifikation von Lösungsarchitekturen für ein internationales Multi-Store-Spryker-Projekt",
+            "Koordination der Backend-Entwicklung über mehrere domänenorientierte vertikale Feature-Teams hinweg",
+            "Anforderungsanalyse und Design von Algorithmen für Themen wie Verfügbarkeitsprognose, Optimierung von Kommissionierung und Lieferung und ähnliche Themen",
+            "DevOps Engineering – Konfiguration von Spryker-Umgebungen und Erstellung von Installationsskripten",
+            "Abstimmung technischer Releases im Rahmen eines zentralisierten Release-Prozesses für mehrere Länder",
+            "Planung und Realisierung der Integration verschiedener Systeme und Schnittstellen (Legacy-Systeme, länderspezifische und internationale Server- und Cloud-Umgebungen, Plattformen von Drittherstellern, z. B. für Lieferflotten oder automatisierte Abholstationen)",
+            "Rapid Prototyping/Entwicklung von Proofs of Concept"
+        ],
+        "keywords": ["Einzelhandel", "Logistik", "E-Food", "PHP", "Symfony", "Azure", "DevOps", "Docker", "GitLab", "Spryker", "RabbitMQ", "MariaDB", "Redis", "ElasticSearch", "Design Patterns", "Microservices", "SOA", "Domain-driven Design"]
+    },
+    {
+        "title": "Full-Stack-Verantwortung für Innovationsprojekte von ALDI SÜD Deutschland",
         "position": "Technology Generalist",
-        "description": "Als Mitglied des kleinen aber schlagkräftigen Teams <i>Digital Business Development & Strategy</i> habe ich fachlich und technologisch breit gefächerte Verantwortung für Cloud-Infrastruktur, Architektur und Entwicklung inhouse-entwickelter Software-Prototypen, Datenanalysen sowie die Gestaltung und Optimierung technischer und geschäftlicher Prozesse übernommen. <i>Da die inhaltlichen Details der durchgeführten Projekte hochgradig wettbewerbsrelevant sind, darf ich sie momentan noch nicht preisgeben.</i>",
+        "description": "Als Mitglied des kleinen aber schlagkräftigen Teams <i>Digital Business Development & Strategy</i> habe ich fachlich und technologisch breit gefächerte Verantwortung für Cloud-Infrastruktur, Architektur und Entwicklung inhouse-entwickelter Software-Prototypen, Datenanalysen sowie die Gestaltung und Optimierung technischer und geschäftlicher Prozesse übernommen. <i>Da die inhaltlichen Details der durchgeführten Projekte hochgradig wettbewerbsrelevant sind, darf ich sie nicht preisgeben.</i>",
         "tasks": [
             "Gestaltung und Umsetzung einer projektübergreifenden serverlosen Architektur auf Basis von AWS",
             "Planung und Auswertung datengetriebener Hypothesentests",

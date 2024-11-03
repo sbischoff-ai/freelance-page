@@ -1,8 +1,33 @@
 [
     {
-        "title": "Full Stack Responsibility for innovation project of ALDI South",
+        "title": "Backend-Development for ALDI SOUTH Digital",
+        "position": "Senior Backend Developer",
+        "description": "For the German division responsible for the <i>Mein ALDI</i> e-food project, I carried out the backend development for various in-house solutions.",
+        "tasks": [
+            "Requirement analysis, technical specification and implementation of the backend for an assortment management tool",
+            "Implementation of an automation solution for inventory monitoring and availability control"
+        ],
+        "keywords": ["Assortment", "E-food", "Python", "FastAPI", "OpenAPI", "Docker", "GitLab", "PostgreSQL", "Microservices"]
+    },
+    {
+        "title": "Technical lead in an e-food project for ALDI SOUTH International",
+        "position": "Tech Lead/Senior Solution Architect",
+        "description": "I was responsible for the technical direction of the backend development in a German sister project of the international e-food/e-commerce initiative of ALDI SOUTH. The project has since gone live under the name <i>Mein ALDI</i>.",
+        "tasks": [
+            "Specification of solution architectures for an international multi-store Spryker poject",
+            "Coordination of back-end development across multiple domain-oriented vertical feature teams",
+            "Requirement analysis and design of algorithms for topics such as availability forecasting, optimisation of picking and delivery, and related topics",
+            "DevOps Engineering - Configuration of Spryker environments and creation of installation scripts",
+            "Alignment of technical releases in the context of a centralised release process for multiple countries",
+            "Planning and realisation of the integration of various systems and interfaces (legacy systems, country-specific and international server and cloud environments, platforms from third-party manufacturers, e.g. for delivery fleets or automated pick-up stations)",
+            "Rapid Prototyping/Development of Proofs of Concept"
+        ],
+        "keywords": ["Retail", "Logistics", "E-food", "PHP", "Symfony", "Azure", "DevOps", "Docker", "GitLab", "Spryker", "RabbitMQ", "MariaDB", "Redis", "ElasticSearch", "Design Patterns", "Microservices", "SOA", "Domain-driven Design"]
+    },
+    {
+        "title": "Full Stack Responsibility for innovation projects of ALDI SOUTH Germany",
         "position": "Technology Generalist",
-        "description": "As a member of the small but powerful <i>Digital Business Development & Strategy</i> team, I have taken on professionally and technologically broad responsibilities for cloud infrastructure, architecture and development of in-house-developed software prototypes, data analysis, and the design and optimization of technical and business processes. <i>As the content details of the projects carried out are highly competitive, I am not allowed to disclose them at the moment</i>.",
+        "description": "As a member of the small but powerful <i>Digital Business Development & Strategy</i> team, I have taken on professionally and technologically broad responsibilities for cloud infrastructure, architecture and development of in-house-developed software prototypes, data analysis, and the design and optimization of technical and business processes. <i>As the content details of the projects carried out are highly competitive, I am not allowed to disclose them</i>.",
         "tasks": [
             "Design and implementation of a cross-project serverless architecture based on AWS",
             "Planning and evaluation of data-driven hypothesis tests",
@@ -12,7 +37,7 @@
             "DevOps - main responsibility for CI/CD and cloud infrastructure",
             "Content co-creation of digital innovations of different areas of food retail and logistics"
         ],
-        "keywords": ["Retail", "Logistik", "Python", "Node.js", "Grafana", "AWS", "DevOps", "Docker", "GitLab", "Spryker", "Serverless Stack", "MVP-Testing", "Advanced Analytics", "Hadoop", "Spark", "Lean Startup"]
+        "keywords": ["Retail", "Logistics", "Python", "Node.js", "Grafana", "AWS", "DevOps", "Docker", "GitLab", "Spryker", "Serverless Stack", "MVP-Testing", "Advanced Analytics", "Hadoop", "Spark", "Lean Startup"]
     },
     {
         "title": "Development of an online insurance application",
