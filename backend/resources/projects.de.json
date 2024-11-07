@@ -10,7 +10,7 @@
         "keywords": ["Assortment", "E-Food", "Python", "FastAPI", "OpenAPI", "Docker", "GitLab", "PostgreSQL", "Microservices"]
     },
     {
-        "title": "Technische Leitung in einem E-Food-Projekt für ALDI SOUTH International",
+        "title": "Technische Leitung in einem E-Food-Projekt für ALDI SÜD International",
         "position": "Tech Lead/Senior Solution Architect",
         "description": "Ich war für die technische Leitung der Backend-Entwicklung in einem deutschen Schwesterprojekt der internationalen E-Food-/E-Commerce-Initiative von ALDI SÜD verantwortlich. Das Projekt ist inzwischen unter dem Namen <i>Mein ALDI</i> live gegangen.",
         "tasks": [
@@ -25,12 +25,12 @@
         "keywords": ["Einzelhandel", "Logistik", "E-Food", "PHP", "Symfony", "Azure", "DevOps", "Docker", "GitLab", "Spryker", "RabbitMQ", "MariaDB", "Redis", "ElasticSearch", "Design Patterns", "Microservices", "SOA", "Domain-driven Design"]
     },
     {
-        "title": "Cloud-Migrationsprojekt für ALDI SOUTH International",
+        "title": "Cloud-Migrationsprojekt für ALDI SÜD International",
         "position": "Cloud Specialist",
         "description": "Dieses Projekt umfasste die Migration einer bestehenden serverlosen Infrastruktur von Amazon Web Services (AWS) nach Microsoft Azure zur Eingliederung eines nationalen Innovationsprojekts in die konzernweite Cloud-Strategie.",
         "tasks": [
             "Analyse bestehender Infrastruktur und Erarbeitung einer Zielarchitektur",
-            "Entwicklung standardisierter Cloud-Komponenten auf basis von Terraform",
+            "Entwicklung standardisierter Cloud-Komponenten auf Basis von Terraform",
             "Planung und Umsetzung von Datensicherheitsmaßnahmen nach modernen Industriestandards",
             "Iteratives Deployment der migrierten Services und Ressourcen, sowie Support bei der Datenmigration"
         ],
