@@ -25,6 +25,18 @@
         "keywords": ["Einzelhandel", "Logistik", "E-Food", "PHP", "Symfony", "Azure", "DevOps", "Docker", "GitLab", "Spryker", "RabbitMQ", "MariaDB", "Redis", "ElasticSearch", "Design Patterns", "Microservices", "SOA", "Domain-driven Design"]
     },
     {
+        "title": "Cloud-Migrationsprojekt für ALDI SOUTH International",
+        "position": "Cloud Specialist",
+        "description": "Dieses Projekt umfasste die Migration einer bestehenden serverlosen Infrastruktur von Amazon Web Services (AWS) nach Microsoft Azure zur Eingliederung eines nationalen Innovationsprojekts in die konzernweite Cloud-Strategie.",
+        "tasks": [
+            "Analyse bestehender Infrastruktur und Erarbeitung einer Zielarchitektur",
+            "Entwicklung standardisierter Cloud-Komponenten auf basis von Terraform",
+            "Planung und Umsetzung von Datensicherheitsmaßnahmen nach modernen Industriestandards",
+            "Iteratives Deployment der migrierten Services und Ressourcen, sowie Support bei der Datenmigration"
+        ],
+        "keywords": ["AWS", "Azure", "Serverless Architecture", "Microservices", "Terraform", "Docker", "GitLab", "DevSecOps", "PostgresQL", "Event Sourcing"]
+    },
+    {
         "title": "Full-Stack-Verantwortung für Innovationsprojekte von ALDI SÜD Deutschland",
         "position": "Technology Generalist",
         "description": "Als Mitglied des kleinen aber schlagkräftigen Teams <i>Digital Business Development & Strategy</i> habe ich fachlich und technologisch breit gefächerte Verantwortung für Cloud-Infrastruktur, Architektur und Entwicklung inhouse-entwickelter Software-Prototypen, Datenanalysen sowie die Gestaltung und Optimierung technischer und geschäftlicher Prozesse übernommen. <i>Da die inhaltlichen Details der durchgeführten Projekte hochgradig wettbewerbsrelevant sind, darf ich sie nicht preisgeben.</i>",
