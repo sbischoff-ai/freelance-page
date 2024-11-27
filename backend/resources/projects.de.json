@@ -1,6 +1,6 @@
 [
     {
-        "title": "Backend-Development für ALDI SÜD Digital",
+        "title": "Automatisierte Bestandsüberwachung und -verwaltung",
         "position": "Senior Backend Developer",
         "description": "Für die deutsche Abteilung, die für das E-Food-Projekt <i>Mein ALDI</i> verantwortlich ist, habe ich die Backend-Entwicklung für verschiedene interne Softwarelösungen durchgeführt.",
         "tasks": [
@@ -10,9 +10,9 @@
         "keywords": ["Assortment", "E-Food", "Python", "FastAPI", "OpenAPI", "Docker", "GitLab", "PostgreSQL", "Microservices"]
     },
     {
-        "title": "Technische Leitung in einem E-Food-Projekt für ALDI SÜD International",
+        "title": "Technische Leitung in einem internationalen E-Food-Projekt",
         "position": "Tech Lead/Senior Solution Architect",
-        "description": "Ich war für die technische Leitung der Backend-Entwicklung in einem deutschen Schwesterprojekt der internationalen E-Food-/E-Commerce-Initiative von ALDI SÜD verantwortlich. Das Projekt ist inzwischen unter dem Namen <i>Mein ALDI</i> live gegangen.",
+        "description": "Ich war für die technische Leitung der Backend-Entwicklung in einem deutschen Schwesterprojekt der internationalen E-Food-/E-Commerce-Initiative einer namhaften Lebensmitteleinzelhandelsgruppe verantwortlich.",
         "tasks": [
             "Spezifikation von Lösungsarchitekturen für ein internationales Multi-Store-Spryker-Projekt",
             "Koordination der Backend-Entwicklung über mehrere domänenorientierte vertikale Feature-Teams hinweg",
@@ -25,7 +25,7 @@
         "keywords": ["Einzelhandel", "Logistik", "E-Food", "PHP", "Symfony", "Azure", "DevOps", "Docker", "GitLab", "Spryker", "RabbitMQ", "MariaDB", "Redis", "ElasticSearch", "Design Patterns", "Microservices", "SOA", "Domain-driven Design"]
     },
     {
-        "title": "Cloud-Migrationsprojekt für ALDI SÜD International",
+        "title": "Cloud-Migration mehrerer Applikationen und Services",
         "position": "Cloud Specialist",
         "description": "Dieses Projekt umfasste die Migration einer bestehenden serverlosen Infrastruktur von Amazon Web Services (AWS) nach Microsoft Azure zur Eingliederung eines nationalen Innovationsprojekts in die konzernweite Cloud-Strategie.",
         "tasks": [
@@ -39,7 +39,7 @@
     {
         "title": "Full-Stack-Verantwortung für Innovationsprojekte von ALDI SÜD Deutschland",
         "position": "Technology Generalist",
-        "description": "Als Mitglied des kleinen aber schlagkräftigen Teams <i>Digital Business Development & Strategy</i> habe ich fachlich und technologisch breit gefächerte Verantwortung für Cloud-Infrastruktur, Architektur und Entwicklung inhouse-entwickelter Software-Prototypen, Datenanalysen sowie die Gestaltung und Optimierung technischer und geschäftlicher Prozesse übernommen. <i>Da die inhaltlichen Details der durchgeführten Projekte hochgradig wettbewerbsrelevant sind, darf ich sie nicht preisgeben.</i>",
+        "description": "Als Mitglied des kleinen aber schlagkräftigen Teams <i>Digital Business Development & Strategy</i> habe ich fachlich und technologisch breit gefächerte Verantwortung für Cloud-Infrastruktur, Architektur und Entwicklung inhouse-entwickelter Software-Prototypen, Datenanalysen sowie die Gestaltung und Optimierung technischer und geschäftlicher Prozesse übernommen.",
         "tasks": [
             "Gestaltung und Umsetzung einer projektübergreifenden serverlosen Architektur auf Basis von AWS",
             "Planung und Auswertung datengetriebener Hypothesentests",
